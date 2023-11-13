@@ -75,18 +75,24 @@ def data_generator(shared_buffer, buffer_lock):
             shared_buffer[:] = flat_data
         time.sleep(10)  # Simulate a pause between data generations
 
+def findMax(heatMap):
+    max = -1
+    for i in range(len(heatMap.map)):
+        for j in range(len(heatMap.map[i])):
+            if heatMap.map[i][j] > max:
+                max = heatMap.map[i][j]
+    return max
+
 def data_reader(shared_buffer, buffer_lock):
     while True:
-        # print("POP")
         heatMap = HeatMap(100,100)
         with buffer_lock:
             data = list(shared_buffer)
-            # print(data)
             tuples_data = [(data[i], data[i + 1]) for i in range(0, len(data), 2)]
-            # print(tuples_data)
             for i,j in tuples_data:
                 heatMap.add(i, j)
-        heatMap.printMap()
+        # heatMap.printMap()
+        print("Max = ", findMax(heatMap))
 
 if __name__ == "__main__":
     buffer_size = 100000
