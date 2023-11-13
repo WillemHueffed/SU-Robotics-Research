@@ -13,6 +13,7 @@ import multiprocessing
 NUM_ROWS = 100 #num of rows
 NUM_COLS = 100 #num of columns
 SAMPLE_SIZE = 100000
+HERTZ = 30
 
 class HeatMap():
     def __init__(self, rowDivs, colDivs):
@@ -73,15 +74,18 @@ def data_generator(shared_buffer, buffer_lock):
 
             # Write the data to the shared buffer
             shared_buffer[:] = flat_data
-        time.sleep(10)  # Simulate a pause between data generations
 
 def findMax(heatMap):
     max = -1
+    x = -1
+    y = -1
     for i in range(len(heatMap.map)):
         for j in range(len(heatMap.map[i])):
             if heatMap.map[i][j] > max:
                 max = heatMap.map[i][j]
-    return max
+                x = i
+                y = j
+    return (max, (x, y))
 
 def data_reader(shared_buffer, buffer_lock):
     while True:
@@ -91,7 +95,6 @@ def data_reader(shared_buffer, buffer_lock):
             tuples_data = [(data[i], data[i + 1]) for i in range(0, len(data), 2)]
             for i,j in tuples_data:
                 heatMap.add(i, j)
-        # heatMap.printMap()
         print("Max = ", findMax(heatMap))
 
 if __name__ == "__main__":
@@ -116,4 +119,3 @@ if __name__ == "__main__":
     # Wait for the process and the thread to finish (this example runs indefinitely)
     generator_process.join()
     reader_thread.join()
-    
