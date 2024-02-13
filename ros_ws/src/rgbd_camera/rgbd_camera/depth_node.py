@@ -25,12 +25,19 @@ class RealSenseNode(Node):
 
         self.pipeline.start(self.config)
         
+        #Align depth frames to color frames
+        self.align_to = rs.stream.color
+        self.align = rs.align(self.align_to)
+
         # Wait for a coherent pair of frames: depth and color
         frames = self.pipeline.wait_for_frames()
-        color_frame = frames.get_color_frame()
+        aligned_frames = self.align.process(frames)
+
+        #Extract frame data
+        color_frame = aligned_frames.get_color_frame()
         color_image = np.asanyarray(color_frame.get_data())
         
-        depth_frame = frames.get_depth_frame()
+        depth_frame = aligned_frames.get_depth_frame()
         depth_image = np.asanyarray(depth_frame.get_data())
 
         # Set up the mouse callback function
@@ -51,10 +58,13 @@ class RealSenseNode(Node):
     def run(self):
         try:
             while rclpy.ok():
-                # Wait for a coherent pair of frames: depth and color
+                # Wait for a coherent pair of aligned frames: depth and color
                 frames = self.pipeline.wait_for_frames()
-                depth_frame = frames.get_depth_frame()
-                color_frame = frames.get_color_frame()
+                aligned_frames = self.align.process(frames)
+
+                # Extract frame data
+                depth_frame = aligned_frames.get_depth_frame()
+                color_frame = aligned_frames.get_color_frame()
                 if not depth_frame or not color_frame:
                     continue
 
