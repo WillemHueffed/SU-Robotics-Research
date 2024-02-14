@@ -77,12 +77,18 @@ class RealSenseNode(Node):
                 xyDepth = depth_frame.get_distance(int(self.clicked_x * depth_frame.width), int((1 - self.clicked_y) * depth_frame.height))
                 #print("Clicked at position: ({}, {}) depth is: {}".format(self.clicked_x, self.clicked_y, xyDepth))
                 
+                # Point cloud
+                x_pxl = int(self.clicked_x * depth_frame.width)
+                y_pxl = int((1 - self.clicked_y) * depth_frame.height)
+                depth_intrinsics = depth_frame.profile.as_video_stream_profile().intrinsics
+                depth_point = rs.rs2_deproject_pixel_to_point(depth_intrinsics, [x_pxl, y_pxl], xyDepth)
+
                 #publish message
                 msg = String()
-                msg.data = "{} {} {}".format(self.clicked_x, self.clicked_y, xyDepth)
+                msg.data = "{} {} {} {}".format(self.clicked_x, self.clicked_y, xyDepth, depth_point)
                 self.publisher_.publish(msg)
                 self.get_logger().info('Publishing: {}'.format(msg.data))
-
+                
                 # Display the color image in the window
                 cv2.imshow('Color', color_image)
                 cv2.imshow('Depth', depth_colormap)
