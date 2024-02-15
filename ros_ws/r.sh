@@ -7,5 +7,4 @@ colcon build
 source install/setup.sh
 
 # Run the camera_node
-ros2 run rgbd_camera depth_node 
-
+ros2 launch launch/launch.py
