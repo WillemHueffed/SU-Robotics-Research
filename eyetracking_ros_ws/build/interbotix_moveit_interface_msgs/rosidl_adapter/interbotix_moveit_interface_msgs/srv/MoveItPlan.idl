@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interbotix_moveit_interface_msgs/srv/MoveItPlan.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/String.idl"
+
+module interbotix_moveit_interface_msgs {
+  module srv {
+    module MoveItPlan_Request_Constants {
+      const int8 CMD_NONE = 0;
+      const int8 CMD_PLAN_POSE = 1;
+      const int8 CMD_PLAN_POSITION = 2;
+      const int8 CMD_PLAN_ORIENTATION = 3;
+      const int8 CMD_EXECUTE = 4;
+    };
+    @verbatim (language="comment", text=
+      " Send commands to the moveit_plan server" "\n"
+      "" "\n"
+      " Enum values that define the commands available for the server. Note that all" "\n"
+      " ee_poses (defined in the 'ee_arm_link' frame) are relative to the 'world' frame." "\n"
+      " There are 5 options:" "\n"
+      "   0) CMD_NONE - Command has not been set yet or has been cleared" "\n"
+      "   1) CMD_PLAN_POSE - Desired ee_pose which is made up of a position and orientation element" "\n"
+      "   2) CMD_PLAN_POSITION - Desired ee_position which is made up of a position element only; orientation is not constrained" "\n"
+      "   3) CMD_PLAN_ORIENTATION - Desired ee_orientation which is made up of an orientation element only; position is not constrained" "\n"
+      "   4) CMD_EXECUTE - Once a plan is available, this command executes the planned trajectory on the gazebo or physical robot")
+    struct MoveItPlan_Request {
+      int8 cmd;
+
+      @verbatim (language="comment", text=
+        " desired ee_pose, position, or orientation")
+      geometry_msgs::msg::Pose ee_pose;
+    };
+    @verbatim (language="comment", text=
+      " message if the planning or execution was successful; this is displayed in the custom GUI.")
+    struct MoveItPlan_Response {
+      std_msgs::msg::String msg;
+
+      @verbatim (language="comment", text=
+        " boolean to easily check if the planning or execution was successful.")
+      boolean success;
+    };
+  };
+};

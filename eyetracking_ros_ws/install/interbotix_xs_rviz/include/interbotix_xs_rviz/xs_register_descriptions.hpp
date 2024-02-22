@@ -1,0 +1,1 @@
+/home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz/include/interbotix_xs_rviz/xs_register_descriptions.hpp

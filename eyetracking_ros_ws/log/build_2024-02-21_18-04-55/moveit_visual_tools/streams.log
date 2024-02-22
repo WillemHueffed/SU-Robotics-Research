@@ -1,0 +1,145 @@
+[0.886s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/moveit_visual_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools
+[1.263s] -- The C compiler identification is GNU 9.4.0
+[1.263s] -- The CXX compiler identification is GNU 9.4.0
+[1.264s] -- Check for working C compiler: /usr/bin/cc
+[1.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.264s] -- Detecting C compiler ABI info
+[1.264s] -- Detecting C compiler ABI info - done
+[1.264s] -- Detecting C compile features
+[1.264s] -- Detecting C compile features - done
+[1.264s] -- Check for working CXX compiler: /usr/bin/c++
+[1.345s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.347s] -- Detecting CXX compiler ABI info
+[1.461s] -- Detecting CXX compiler ABI info - done
+[1.482s] -- Detecting CXX compile features
+[1.483s] -- Detecting CXX compile features - done
+[1.487s] -- Found moveit_common: 2.3.4 (/opt/ros/galactic/share/moveit_common/cmake)
+[1.492s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.780s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.790s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.790s] -- BACKWARD_HAS_UNWIND=1
+[1.794s] -- BACKWARD_HAS_BACKTRACE=0
+[1.794s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.794s] -- BACKWARD_HAS_DW=1
+[1.794s] -- BACKWARD_HAS_BFD=0
+[1.795s] moveit_visual_tools: You did not request a specific build type: Choosing 'Release' for maximum performance
+[1.795s] -- Found Backward: /opt/ros/galactic/share/backward_ros/cmake  
+[1.817s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[1.827s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.893s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.000s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.027s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.311s] -- Found graph_msgs: 0.2.0 (/opt/ros/galactic/share/graph_msgs/cmake)
+[2.441s] -- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)
+[2.884s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.925s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[3.083s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.092s] -- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)
+[3.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.243s] -- Found Threads: TRUE  
+[4.130s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.887s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.782s] -- Found moveit_ros_planning: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning/cmake)
+[9.791s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[10.331s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[11.886s] -- Found rviz_visual_tools: 4.1.2 (/opt/ros/galactic/share/rviz_visual_tools/cmake)
+[12.171s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[12.176s] -- Found OGRE
+[12.176s] --   static     : OFF
+[12.176s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[12.177s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.177s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[12.177s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[12.177s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[12.177s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.177s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[12.177s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.177s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.178s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.178s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.227s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[12.242s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[12.453s] -- Found X11: /usr/include   
+[12.454s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[12.659s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[12.660s] -- Looking for gethostbyname
+[12.824s] -- Looking for gethostbyname - found
+[12.825s] -- Looking for connect
+[13.026s] -- Looking for connect - found
+[13.026s] -- Looking for remove
+[13.358s] -- Looking for remove - found
+[13.358s] -- Looking for shmat
+[13.713s] -- Looking for shmat - found
+[13.713s] -- Looking for IceConnectionNumber in ICE
+[14.072s] -- Looking for IceConnectionNumber in ICE - found
+[14.078s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[14.079s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[14.107s] -- library: libassimp.so.5
+[15.796s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[15.844s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.846s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.849s] -- Added test 'lint_cmake' to check CMake code style
+[15.852s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[15.853s] -- Added test 'xmllint' to check XML markup files
+[15.874s] -- Configuring done
+[16.137s] -- Generating done
+[16.142s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools
+[16.356s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/moveit_visual_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools
+[16.359s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools -- -j12 -l12
+[16.405s] [35m[1mScanning dependencies of target moveit_visual_tools[0m
+[16.627s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[16.630s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[16.632s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[36.042s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[36.655s] [ 66%] Built target moveit_visual_tools
+[36.667s] [35m[1mScanning dependencies of target moveit_visual_tools_demo[0m
+[36.751s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[47.425s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[47.898s] [100%] Built target moveit_visual_tools_demo
+[47.908s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools -- -j12 -l12
+[47.938s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools
+[47.946s] -- Install configuration: "Release"
+[47.946s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[47.946s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[47.946s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[47.947s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[47.947s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[47.947s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo" to ""
+[47.947s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/include
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/include/moveit_visual_tools
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[47.948s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[47.949s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.950s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[47.951s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[47.951s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[47.952s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/moveit_visual_tools

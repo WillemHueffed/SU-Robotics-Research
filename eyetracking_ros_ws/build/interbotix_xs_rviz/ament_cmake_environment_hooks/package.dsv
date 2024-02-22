@@ -1,0 +1,4 @@
+source;share/interbotix_xs_rviz/local_setup.bash
+source;share/interbotix_xs_rviz/local_setup.dsv
+source;share/interbotix_xs_rviz/local_setup.sh
+source;share/interbotix_xs_rviz/local_setup.zsh

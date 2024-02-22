@@ -1,0 +1,4 @@
+/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_msgs/rosidl_adapter/interbotix_perception_msgs:msg/ClusterInfo.idl
+/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_msgs/rosidl_adapter/interbotix_perception_msgs:srv/ClusterInfoArray.idl
+/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_msgs/rosidl_adapter/interbotix_perception_msgs:srv/FilterParams.idl
+/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_msgs/rosidl_adapter/interbotix_perception_msgs:srv/SnapPicture.idl

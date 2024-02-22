@@ -1,0 +1,169 @@
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_msgs
+[  1%] Built target interbotix_perception_msgs__cpp
+[ 12%] Built target interbotix_perception_msgs__rosidl_generator_c
+[ 23%] Built target interbotix_perception_msgs__rosidl_typesupport_cpp
+[ 34%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_cpp
+[ 45%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c
+[ 47%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 58%] Built target interbotix_perception_msgs__rosidl_typesupport_c
+[ 67%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[ 69%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 78%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target interbotix_perception_msgs
+[ 80%] Built target interbotix_perception_msgs__py
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/libinterbotix_perception_msgs__python.so[0m
+[ 89%] Built target interbotix_perception_msgs__python
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking CXX shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] Built target interbotix_perception_msgs__rosidl_typesupport_c__pyext
+[ 98%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_perception_msgs
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/cluster_info.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__functions.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__struct.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__type_support.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/cluster_info_array.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__functions.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__struct.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__functions.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__struct.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__type_support.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__functions.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__struct.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__type_support.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/filter_params.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/snap_picture.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/library_path.sh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/library_path.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/cluster_info.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__builder.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__struct.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__traits.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/cluster_info_array.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__builder.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__struct.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__traits.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__builder.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__struct.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__traits.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__builder.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__struct.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__traits.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/filter_params.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/snap_picture.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/pythonpath.sh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/__init__.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/msg/__init__.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/msg/_cluster_info.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/srv/__init__.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/srv/_cluster_info_array.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/srv/_filter_params.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/srv/_snap_picture.py
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__python.so
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/msg/ClusterInfo.idl
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray.idl
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams.idl
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture.idl
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/msg/ClusterInfo.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray.srv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray_Request.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray_Response.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams.srv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams_Request.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams_Response.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture.srv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture_Request.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture_Response.msg
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_msgs
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_msgs
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/path.sh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/path.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.bash
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.sh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.zsh
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/package.dsv
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/packages/interbotix_perception_msgs
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgsConfig.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgsConfig-version.cmake
+-- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/package.xml
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_cpp.so
+Compiling '/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages/interbotix_perception_msgs/__init__.py'...
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake

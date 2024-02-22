@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interbotix_perception_msgs/srv/SnapPicture.srv
+// generated code does not contain a copyright notice
+
+
+module interbotix_perception_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " This service is used specifically in the interbotix_perception_modules package" "\n"
+      "" "\n"
+      " Save the latest rgb picture with the specified name" "\n"
+      "" "\n"
+      " Request consists of:" "\n"
+      "   filename : name of file in which to save image including extension (.jpg)" "\n"
+      "" "\n"
+      " Response consists of:" "\n"
+      "    success : boolean indication of service success")
+    struct SnapPicture_Request {
+      string filename;
+    };
+    struct SnapPicture_Response {
+      boolean success;
+
+      string filepath;
+    };
+  };
+};

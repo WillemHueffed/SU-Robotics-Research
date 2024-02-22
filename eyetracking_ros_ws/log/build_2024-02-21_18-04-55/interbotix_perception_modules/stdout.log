@@ -1,0 +1,63 @@
+running egg_info
+creating ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info
+writing ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/dependency_links.txt
+writing entry points to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/entry_points.txt
+writing requirements to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/requires.txt
+writing top-level names to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/top_level.txt
+writing manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/armtag_tuner_gui.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/pointcloud_tuner_gui.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/__init__.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/armtag.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/pointcloud.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/apriltag.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+copying interbotix_perception_modules/picture_snapper.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+running install
+running install_lib
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/armtag_tuner_gui.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/pointcloud_tuner_gui.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/__init__.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/armtag.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/pointcloud.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/apriltag.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+copying /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/picture_snapper.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/armtag_tuner_gui.py to armtag_tuner_gui.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/pointcloud_tuner_gui.py to pointcloud_tuner_gui.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/armtag.py to armtag.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/pointcloud.py to pointcloud.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/apriltag.py to apriltag.cpython-38.pyc
+byte-compiling /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules/picture_snapper.py to picture_snapper.cpython-38.pyc
+running install_data
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/ament_index
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/ament_index/resource_index
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+copying resource/interbotix_perception_modules -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+copying package.xml -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+copying launch/pc_filter.launch.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+copying launch/armtag.launch.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+copying launch/apriltag.launch.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+copying launch/picture_snapper.launch.py -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+copying config/tags.yaml -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+copying config/filter_params.yaml -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+copying src/ui/armtagtunergui.ui -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+copying src/ui/pointcloudtunergui.ui -> /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+running install_egg_info
+Copying ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix_perception_modules-0.0.0-py3.8.egg-info
+running install_scripts
+Installing armtag_tuner_gui script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing picture_snapper script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing pointcloud_tuner_gui script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+writing list of installed files to '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules/install.log'

@@ -1,0 +1,128 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found pluginlib: 5.0.1 (/opt/ros/galactic/share/pluginlib/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: libassimp.so.5
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found interbotix_xs_msgs: 0.0.0 (/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_rviz
+[35m[1mScanning dependencies of target interbotix_xs_rviz_autogen[0m
+[ 20%] [34m[1mAutomatic MOC for target interbotix_xs_rviz[0m
+[ 20%] Built target interbotix_xs_rviz_autogen
+[ 40%] [34m[1mGenerating ui_interbotix_control_panel.h[0m
+[35m[1mScanning dependencies of target interbotix_xs_rviz[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/interbotix_xs_rviz_autogen/mocs_compilation.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/src/interbotix_control_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libinterbotix_xs_rviz.so[0m
+[100%] Built target interbotix_xs_rviz
+-- Install configuration: ""
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/plugin_description.xml
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so
+-- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so" to ""
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/include/
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/xs_register_descriptions.hpp
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/interbotix_control_panel.hpp
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes/Interbotix Control Panel.png
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.sh
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.dsv
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_rviz
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_rviz
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.sh
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.dsv
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.bash
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.sh
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.zsh
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.dsv
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.dsv
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/packages/interbotix_xs_rviz
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/interbotix_xs_rviz
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport-noconfig.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig-version.cmake
+-- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.xml

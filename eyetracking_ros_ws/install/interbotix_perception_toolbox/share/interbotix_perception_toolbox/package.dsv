@@ -1,0 +1,8 @@
+source;share/interbotix_perception_toolbox/hook/cmake_prefix_path.ps1
+source;share/interbotix_perception_toolbox/hook/cmake_prefix_path.dsv
+source;share/interbotix_perception_toolbox/hook/cmake_prefix_path.sh
+source;share/interbotix_perception_toolbox/local_setup.bash
+source;share/interbotix_perception_toolbox/local_setup.dsv
+source;share/interbotix_perception_toolbox/local_setup.ps1
+source;share/interbotix_perception_toolbox/local_setup.sh
+source;share/interbotix_perception_toolbox/local_setup.zsh

@@ -1,0 +1,9 @@
+source;share/interbotix_xs_modules/hook/pythonpath.ps1
+source;share/interbotix_xs_modules/hook/pythonpath.dsv
+source;share/interbotix_xs_modules/hook/pythonpath.sh
+source;share/interbotix_xs_modules/hook/ament_prefix_path.ps1
+source;share/interbotix_xs_modules/hook/ament_prefix_path.dsv
+source;share/interbotix_xs_modules/hook/ament_prefix_path.sh
+source;../../build/interbotix_xs_modules/share/interbotix_xs_modules/hook/pythonpath_develop.ps1
+source;../../build/interbotix_xs_modules/share/interbotix_xs_modules/hook/pythonpath_develop.dsv
+source;../../build/interbotix_xs_modules/share/interbotix_xs_modules/hook/pythonpath_develop.sh

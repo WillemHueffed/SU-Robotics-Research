@@ -1,0 +1,2 @@
+source;share/interbotix_ros_xseries/environment/ament_prefix_path.sh
+source;share/interbotix_ros_xseries/environment/path.sh

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing rgbd_camera.egg-info/PKG-INFO
+writing dependency_links to rgbd_camera.egg-info/dependency_links.txt
+writing entry points to rgbd_camera.egg-info/entry_points.txt
+writing requirements to rgbd_camera.egg-info/requires.txt
+writing top-level names to rgbd_camera.egg-info/top_level.txt
+reading manifest file 'rgbd_camera.egg-info/SOURCES.txt'
+writing manifest file 'rgbd_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/rgbd_camera/lib/python3.8/site-packages/rgbd-camera.egg-link (link to .)
+Installing depth_node script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/rgbd_camera/lib/rgbd_camera
+Installing tf_node script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/rgbd_camera/lib/rgbd_camera
+
+Installed /home/locobot/SU_Robotics/eyetracking_ros_ws/build/rgbd_camera
+running install_data

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interbotix_perception_msgs/srv/ClusterInfoArray.srv
+// generated code does not contain a copyright notice
+
+#include "interbotix_perception_msgs/msg/ClusterInfo.idl"
+
+module interbotix_perception_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " This service is used specifically in the interbotix_perception_modules package" "\n"
+      "" "\n"
+      " List of ClusterInfo messages. The length of the list should correspond to the" "\n"
+      " number of objects seen by the camera")
+    struct ClusterInfoArray_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ClusterInfoArray_Response {
+      sequence<interbotix_perception_msgs::msg::ClusterInfo> clusters;
+    };
+  };
+};

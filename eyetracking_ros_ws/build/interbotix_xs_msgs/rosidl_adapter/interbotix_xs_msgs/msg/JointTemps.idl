@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interbotix_xs_msgs/msg/JointTemps.msg
+// generated code does not contain a copyright notice
+
+
+module interbotix_xs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message is used specifically in the interbotix_xsarm_diagnostic_tool package")
+    struct JointTemps {
+      @verbatim (language="comment", text=
+        " Holds the temperatures for the specified joints")
+      @unit (value="C")
+      sequence<string> names;
+
+      sequence<int32> temps;
+    };
+  };
+};

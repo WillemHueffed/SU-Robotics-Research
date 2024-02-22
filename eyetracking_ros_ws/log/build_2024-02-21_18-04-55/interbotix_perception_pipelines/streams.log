@@ -1,0 +1,165 @@
+[0.793s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines
+[0.853s] -- The C compiler identification is GNU 9.4.0
+[0.909s] -- The CXX compiler identification is GNU 9.4.0
+[0.915s] -- Check for working C compiler: /usr/bin/cc
+[0.986s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.987s] -- Detecting C compiler ABI info
+[1.051s] -- Detecting C compiler ABI info - done
+[1.062s] -- Detecting C compile features
+[1.062s] -- Detecting C compile features - done
+[1.065s] -- Check for working CXX compiler: /usr/bin/c++
+[1.142s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.144s] -- Detecting CXX compiler ABI info
+[1.228s] -- Detecting CXX compiler ABI info - done
+[1.249s] -- Detecting CXX compile features
+[1.250s] -- Detecting CXX compile features - done
+[1.256s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.439s] -- Found ament_index_cpp: 1.2.0 (/opt/ros/galactic/share/ament_index_cpp/cmake)
+[1.450s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.573s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.728s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.922s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.930s] -- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)
+[2.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Looking for pthread.h
+[2.113s] -- Looking for pthread.h - found
+[2.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.178s] -- Looking for pthread_create in pthreads
+[2.232s] -- Looking for pthread_create in pthreads - not found
+[2.232s] -- Looking for pthread_create in pthread
+[2.299s] -- Looking for pthread_create in pthread - found
+[2.300s] -- Found Threads: TRUE  
+[2.468s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.578s] -- Found interbotix_xs_msgs: 0.0.0 (/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[2.773s] -- Found interbotix_perception_msgs: 0.0.0 (/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake)
+[2.892s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[2.964s] -- Found pcl_conversions: 2.3.2 (/opt/ros/galactic/share/pcl_conversions/cmake)
+[3.150s] -- Found pcl_ros: 2.3.2 (/opt/ros/galactic/share/pcl_ros/cmake)
+[3.260s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.265s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.708s] -- Checking for module 'eigen3'
+[3.726s] --   Found eigen3, version 3.3.7
+[3.768s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.768s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.874s] -- Checking for module 'flann'
+[3.896s] --   Found flann, version 1.9.1
+[3.948s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.013s] -- The imported target "vtkParseOGLExt" references the file
+[4.014s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.014s] but this file does not exist.  Possible reasons include:
+[4.014s] * The file was deleted, renamed, or moved to another location.
+[4.014s] * An install or uninstall procedure did not complete successfully.
+[4.014s] * The installation package was faulty and contained
+[4.014s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.014s] but not all the files it references.
+[4.014s] 
+[4.015s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.015s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.015s] but this file does not exist.  Possible reasons include:
+[4.015s] * The file was deleted, renamed, or moved to another location.
+[4.015s] * An install or uninstall procedure did not complete successfully.
+[4.015s] * The installation package was faulty and contained
+[4.015s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.016s] but not all the files it references.
+[4.016s] 
+[4.016s] -- The imported target "vtk" references the file
+[4.016s]    "/usr/bin/vtk"
+[4.016s] but this file does not exist.  Possible reasons include:
+[4.016s] * The file was deleted, renamed, or moved to another location.
+[4.016s] * An install or uninstall procedure did not complete successfully.
+[4.016s] * The installation package was faulty and contained
+[4.017s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.017s] but not all the files it references.
+[4.017s] 
+[4.017s] -- The imported target "pvtk" references the file
+[4.017s]    "/usr/bin/pvtk"
+[4.017s] but this file does not exist.  Possible reasons include:
+[4.017s] * The file was deleted, renamed, or moved to another location.
+[4.017s] * An install or uninstall procedure did not complete successfully.
+[4.017s] * The installation package was faulty and contained
+[4.018s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.018s] but not all the files it references.
+[4.018s] 
+[4.043s] -- Checking for module 'libusb-1.0'
+[4.064s] --   Found libusb-1.0, version 1.0.23
+[4.114s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.188s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.266s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.282s] -- Found libusb-1.0: /usr/include  
+[4.289s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.297s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.335s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[4.336s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[4.342s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.357s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.359s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.360s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.362s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.363s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.365s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.365s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[4.366s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[4.368s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.369s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.371s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.372s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.374s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.376s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.378s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.380s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.382s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.383s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.385s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.387s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.388s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[4.390s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[4.391s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.393s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.617s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[4.639s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.762s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.764s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.765s] -- Configured cppcheck include dirs: 
+[4.765s] -- Configured cppcheck exclude dirs and/or files: 
+[4.766s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.766s] -- Configured cpplint exclude dirs and/or files: 
+[4.768s] -- Added test 'lint_cmake' to check CMake code style
+[4.770s] -- Added test 'uncrustify' to check C / C++ code style
+[4.770s] -- Configured uncrustify additional arguments: 
+[4.771s] -- Added test 'xmllint' to check XML markup files
+[4.778s] -- Configuring done
+[4.843s] -- Generating done
+[4.847s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines
+[4.873s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines
+[4.878s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines -- -j12 -l12
+[4.947s] [35m[1mScanning dependencies of target pointcloud_pipeline[0m
+[5.139s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_pipeline.dir/src/pointcloud_pipeline.cpp.o[0m
+[22.821s] [100%] [32m[1mLinking CXX executable pointcloud_pipeline[0m
+[24.601s] [100%] Built target pointcloud_pipeline
+[24.612s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines -- -j12 -l12
+[24.637s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines
+[24.646s] -- Install configuration: ""
+[24.646s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline
+[24.649s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline" to ""
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_pipelines
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_pipelines
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.sh
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.dsv
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.sh
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.dsv
+[24.649s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.bash
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.sh
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.zsh
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.dsv
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.dsv
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/packages/interbotix_perception_pipelines
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig.cmake
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig-version.cmake
+[24.650s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.xml
+[24.652s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_xslocobot_moveit:/home/locobot/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/locobot/interbotix_ws/install/interbotix_xslocobot_nav:/home/locobot/interbotix_ws/install/interbotix_xslocobot_joy:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/sllidar_ros2:/home/locobot/interbotix_ws/install/interbotix_moveit_interface:/home/locobot/interbotix_ws/install/moveit_visual_tools:/home/locobot/interbotix_ws/install/interbotix_xslocobot_sim:/home/locobot/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/locobot/interbotix_ws/install/interbotix_xs_toolbox:/home/locobot/interbotix_ws/install/interbotix_xs_rviz:/home/locobot/interbotix_ws/install/interbotix_ros_xseries:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_ros_control:/home/locobot/interbotix_ws/install/interbotix_perception_toolbox:/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_tf_tools:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/locobot/interbotix_ws/install/interbotix_common_toolbox:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_pipelines

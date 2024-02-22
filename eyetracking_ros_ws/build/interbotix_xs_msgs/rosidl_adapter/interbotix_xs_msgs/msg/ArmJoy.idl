@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interbotix_xs_msgs/msg/ArmJoy.msg
+// generated code does not contain a copyright notice
+
+
+module interbotix_xs_msgs {
+  module msg {
+    module ArmJoy_Constants {
+      const int8 EE_X_INC = 1;
+      const int8 EE_X_DEC = 2;
+      const int8 EE_Y_INC = 3;
+      const int8 EE_Y_DEC = 4;
+      const int8 EE_Z_INC = 5;
+      const int8 EE_Z_DEC = 6;
+      const int8 EE_ROLL_CCW = 7;
+      const int8 EE_ROLL_CW = 8;
+      const int8 EE_PITCH_UP = 9;
+      const int8 EE_PITCH_DOWN = 10;
+      const int8 WAIST_CCW = 11;
+      const int8 WAIST_CW = 12;
+      const int8 GRIPPER_RELEASE = 13;
+      const int8 GRIPPER_GRASP = 14;
+      const int8 HOME_POSE = 15;
+      const int8 SLEEP_POSE = 16;
+      const int8 SPEED_INC = 17;
+      const int8 SPEED_DEC = 18;
+      const int8 SPEED_COARSE = 19;
+      const int8 SPEED_FINE = 20;
+      const int8 GRIPPER_PWM_INC = 21;
+      const int8 GRIPPER_PWM_DEC = 22;
+      const int8 TORQUE_ON = 23;
+      const int8 TORQUE_OFF = 24;
+    };
+    @verbatim (language="comment", text=
+      " This message is used specifically in the interbotix_xsarm_joy package" "\n"
+      "" "\n"
+      " Maps raw 'joy' commands to more specific ones to control an Interbotix manipulator")
+    struct ArmJoy {
+      @verbatim (language="comment", text=
+        "########################################################################################################" "\n"
+        " Control the motion of the Interbotix Arm")
+      int8 ee_x_cmd;
+
+      int8 ee_y_cmd;
+
+      int8 ee_z_cmd;
+
+      int8 ee_roll_cmd;
+
+      int8 ee_pitch_cmd;
+
+      @verbatim (language="comment", text=
+        " Independent Joint/Pose Control")
+      int8 waist_cmd;
+
+      int8 gripper_cmd;
+
+      int8 pose_cmd;
+
+      @verbatim (language="comment", text=
+        " Misc. Configs")
+      int8 speed_cmd;
+
+      int8 speed_toggle_cmd;
+
+      int8 gripper_pwm_cmd;
+
+      int8 torque_cmd;
+    };
+  };
+};

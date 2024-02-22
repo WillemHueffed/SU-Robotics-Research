@@ -1,0 +1,2 @@
+source;share/interbotix_xs_sdk/environment/ament_prefix_path.sh
+source;share/interbotix_xs_sdk/environment/path.sh

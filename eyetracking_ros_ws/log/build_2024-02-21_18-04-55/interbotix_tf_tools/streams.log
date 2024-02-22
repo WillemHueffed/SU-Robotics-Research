@@ -1,0 +1,90 @@
+[1.729s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools
+[2.118s] -- The C compiler identification is GNU 9.4.0
+[2.118s] -- The CXX compiler identification is GNU 9.4.0
+[2.118s] -- Check for working C compiler: /usr/bin/cc
+[2.118s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.118s] -- Detecting C compiler ABI info
+[2.118s] -- Detecting C compiler ABI info - done
+[2.118s] -- Detecting C compile features
+[2.118s] -- Detecting C compile features - done
+[2.118s] -- Check for working CXX compiler: /usr/bin/c++
+[2.209s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.211s] -- Detecting CXX compiler ABI info
+[2.310s] -- Detecting CXX compiler ABI info - done
+[2.331s] -- Detecting CXX compile features
+[2.332s] -- Detecting CXX compile features - done
+[2.338s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.387s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.387s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.535s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.621s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.802s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.091s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.195s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.202s] -- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)
+[3.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.348s] -- Looking for pthread.h
+[3.424s] -- Looking for pthread.h - found
+[3.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.523s] -- Looking for pthread_create in pthreads
+[3.572s] -- Looking for pthread_create in pthreads - not found
+[3.573s] -- Looking for pthread_create in pthread
+[3.643s] -- Looking for pthread_create in pthread - found
+[3.644s] -- Found Threads: TRUE  
+[3.907s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[3.976s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[4.252s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[4.621s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.952s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.955s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.955s] -- Configured cppcheck include dirs: /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/include
+[4.955s] -- Configured cppcheck exclude dirs and/or files: 
+[4.962s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.962s] -- Configured cpplint exclude dirs and/or files: 
+[4.965s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.978s] -- Added test 'lint_cmake' to check CMake code style
+[4.979s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.982s] -- Added test 'uncrustify' to check C / C++ code style
+[4.983s] -- Configured uncrustify additional arguments: 
+[4.984s] -- Added test 'xmllint' to check XML markup files
+[4.990s] -- Configuring done
+[5.031s] -- Generating done
+[5.043s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools
+[5.073s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools
+[5.078s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools -- -j12 -l12
+[5.293s] [35m[1mScanning dependencies of target tf_rebroadcaster[0m
+[5.450s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_rebroadcaster.dir/src/tf_rebroadcaster.cpp.o[0m
+[18.839s] [100%] [32m[1mLinking CXX shared library libtf_rebroadcaster.so[0m
+[19.201s] [100%] Built target tf_rebroadcaster
+[19.212s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools -- -j12 -l12
+[19.238s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools
+[19.247s] -- Install configuration: ""
+[19.247s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so
+[19.251s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so" to ""
+[19.251s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/lib/interbotix_tf_tools/static_trans_pub.py
+[19.251s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config
+[19.251s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config/tf_rebroadcaster.yaml
+[19.251s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch
+[19.251s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/tf_rebroadcaster.launch.py
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/static_transform_pub.launch.py
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/ament_index/resource_index/package_run_dependencies/interbotix_tf_tools
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/ament_index/resource_index/parent_prefix_path/interbotix_tf_tools
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.sh
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.dsv
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.sh
+[19.252s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.dsv
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.bash
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.sh
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.zsh
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.dsv
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.dsv
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/ament_index/resource_index/packages/interbotix_tf_tools
+[19.253s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/ament_index/resource_index/rclcpp_components/interbotix_tf_tools
+[19.254s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig.cmake
+[19.254s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig-version.cmake
+[19.254s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.xml
+[19.255s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_tf_tools

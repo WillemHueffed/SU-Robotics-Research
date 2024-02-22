@@ -1,0 +1,3 @@
+source;share/interbotix_xs_ros_control/environment/ament_prefix_path.sh
+source;share/interbotix_xs_ros_control/environment/library_path.sh
+source;share/interbotix_xs_ros_control/environment/path.sh

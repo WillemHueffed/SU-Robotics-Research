@@ -1,0 +1,71 @@
+[1.814s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2
+[2.162s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.166s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.166s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.289s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.294s] -- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)
+[2.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.708s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.918s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[3.053s] -- Configuring done
+[3.077s] -- Generating done
+[3.078s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2
+[3.114s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2
+[3.118s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2 -- -j12 -l12
+[3.200s] [  5%] [32m[1mLinking CXX executable sllidar_client[0m
+[3.203s] [ 10%] [32m[1mLinking CXX executable sllidar_node[0m
+[3.605s] [ 95%] Built target sllidar_node
+[3.729s] [100%] Built target sllidar_client
+[4.404s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2 -- -j12 -l12
+[5.090s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2
+[5.105s] -- Install configuration: ""
+[5.105s] -- Execute custom install script
+[5.105s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[5.112s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[5.125s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[5.136s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[5.145s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[5.154s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[5.168s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[5.182s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[5.191s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[5.204s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[5.217s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[5.232s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[5.245s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[5.258s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[5.272s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[5.284s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[5.297s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[5.310s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[5.319s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[5.331s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[5.345s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[5.354s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[5.367s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[5.376s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[5.386s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[5.398s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[5.406s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[5.417s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[5.427s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[5.440s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[5.450s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[5.459s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[5.469s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[5.477s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[5.486s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[5.495s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[5.505s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[5.512s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[5.522s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[5.533s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.542s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.555s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[5.565s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[5.575s] -- Symlinking: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[6.010s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules:/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/sllidar_ros2

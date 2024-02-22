@@ -1,0 +1,14 @@
+msg/ClusterInfo.idl
+msg/ClusterInfo.msg
+srv/ClusterInfoArray.idl
+srv/ClusterInfoArray.srv
+srv/ClusterInfoArray_Request.msg
+srv/ClusterInfoArray_Response.msg
+srv/FilterParams.idl
+srv/FilterParams.srv
+srv/FilterParams_Request.msg
+srv/FilterParams_Response.msg
+srv/SnapPicture.idl
+srv/SnapPicture.srv
+srv/SnapPicture_Request.msg
+srv/SnapPicture_Response.msg

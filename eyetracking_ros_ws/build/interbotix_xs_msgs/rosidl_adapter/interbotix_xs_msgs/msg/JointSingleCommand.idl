@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interbotix_xs_msgs/msg/JointSingleCommand.msg
+// generated code does not contain a copyright notice
+
+
+module interbotix_xs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Command a desired joint. Note that the command is processed differently based on the joint's operating mode." "\n"
+      " For example, if a joint's operating mode is set to 'position', the command is interpreted as a position in radians")
+    struct JointSingleCommand {
+      @verbatim (language="comment", text=
+        " Name of joint")
+      string name;
+
+      @verbatim (language="comment", text=
+        " Joint command")
+      float cmd;
+    };
+  };
+};

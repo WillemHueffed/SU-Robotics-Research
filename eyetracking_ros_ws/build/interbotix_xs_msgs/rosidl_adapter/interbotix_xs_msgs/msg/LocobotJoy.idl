@@ -1,0 +1,87 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interbotix_xs_msgs/msg/LocobotJoy.msg
+// generated code does not contain a copyright notice
+
+
+module interbotix_xs_msgs {
+  module msg {
+    module LocobotJoy_Constants {
+      const int8 RESET_ODOM = 1;
+      const int8 PAN_CCW = 2;
+      const int8 PAN_CW = 3;
+      const int8 TILT_UP = 4;
+      const int8 TILT_DOWN = 5;
+      const int8 PAN_TILT_HOME = 6;
+      const int8 EE_X_INC = 7;
+      const int8 EE_X_DEC = 8;
+      const int8 EE_Y_INC = 9;
+      const int8 EE_Y_DEC = 10;
+      const int8 EE_Z_INC = 11;
+      const int8 EE_Z_DEC = 12;
+      const int8 EE_ROLL_CCW = 13;
+      const int8 EE_ROLL_CW = 14;
+      const int8 EE_PITCH_UP = 15;
+      const int8 EE_PITCH_DOWN = 16;
+      const int8 WAIST_CCW = 17;
+      const int8 WAIST_CW = 18;
+      const int8 GRIPPER_RELEASE = 19;
+      const int8 GRIPPER_GRASP = 20;
+      const int8 HOME_POSE = 21;
+      const int8 SLEEP_POSE = 22;
+      const int8 SPEED_INC = 23;
+      const int8 SPEED_DEC = 24;
+      const int8 SPEED_COARSE = 25;
+      const int8 SPEED_FINE = 26;
+      const int8 GRIPPER_PWM_INC = 27;
+      const int8 GRIPPER_PWM_DEC = 28;
+    };
+    @verbatim (language="comment", text=
+      " This message is used specifically in the interbotix_xslocobot_joy package" "\n"
+      "" "\n"
+      " Maps raw 'joy' commands to more specific ones to control an Interbotix LoCoBot")
+    struct LocobotJoy {
+      @verbatim (language="comment", text=
+        "########################################################################################################" "\n"
+        " Control the motion of the Kobuki base")
+      double base_x_cmd;
+
+      double base_theta_cmd;
+
+      int8 base_reset_odom_cmd;
+
+      @verbatim (language="comment", text=
+        " Control the motion of the camera pan-and-tilt mechanism")
+      int8 pan_cmd;
+
+      int8 tilt_cmd;
+
+      @verbatim (language="comment", text=
+        " Control the motion of the Interbotix Arm")
+      int8 ee_x_cmd;
+
+      int8 ee_y_cmd;
+
+      int8 ee_z_cmd;
+
+      int8 ee_roll_cmd;
+
+      int8 ee_pitch_cmd;
+
+      @verbatim (language="comment", text=
+        " Independent Joint/Pose Control")
+      int8 waist_cmd;
+
+      int8 gripper_cmd;
+
+      int8 pose_cmd;
+
+      @verbatim (language="comment", text=
+        " Arm Configs")
+      int8 speed_cmd;
+
+      int8 speed_toggle_cmd;
+
+      int8 gripper_pwm_cmd;
+    };
+  };
+};

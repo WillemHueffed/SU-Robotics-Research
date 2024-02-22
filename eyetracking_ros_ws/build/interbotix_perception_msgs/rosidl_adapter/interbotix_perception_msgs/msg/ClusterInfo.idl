@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interbotix_perception_msgs/msg/ClusterInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/ColorRGBA.idl"
+
+module interbotix_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message is used specifically in the interbotix_perception_modules package" "\n"
+      "" "\n"
+      " Message that holds information about each cluster")
+    struct ClusterInfo {
+      @verbatim (language="comment", text=
+        " parent frame of the cluster (usually 'camera_depth_optical_frame' or similar)")
+      string frame_id;
+
+      @verbatim (language="comment", text=
+        " x, y, z position of the cluster")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        " yaw of the cluster; x-axis of the cluster should align" "\n"
+        " with the major-axis of a best-fit ellipse (currently not supported)")
+      @unit (value="rad")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " average RGB values (0 - 255) for the whole cluster")
+      std_msgs::msg::ColorRGBA color;
+
+      @verbatim (language="comment", text=
+        " point with the min 'z' value of the cluster")
+      geometry_msgs::msg::Point min_z_point;
+
+      @verbatim (language="comment", text=
+        " number of points in the cluster")
+      int32 num_points;
+    };
+  };
+};

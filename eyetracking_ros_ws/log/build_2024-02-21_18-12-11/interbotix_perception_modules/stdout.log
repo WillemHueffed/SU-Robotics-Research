@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing interbotix_perception_modules.egg-info/PKG-INFO
+writing dependency_links to interbotix_perception_modules.egg-info/dependency_links.txt
+writing entry points to interbotix_perception_modules.egg-info/entry_points.txt
+writing requirements to interbotix_perception_modules.egg-info/requires.txt
+writing top-level names to interbotix_perception_modules.egg-info/top_level.txt
+reading manifest file 'interbotix_perception_modules.egg-info/SOURCES.txt'
+writing manifest file 'interbotix_perception_modules.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/site.py
+Creating /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/python3.8/site-packages/interbotix-perception-modules.egg-link (link to .)
+Installing armtag_tuner_gui script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing picture_snapper script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing pointcloud_tuner_gui script to /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+
+Installed /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_perception_modules
+running install_data

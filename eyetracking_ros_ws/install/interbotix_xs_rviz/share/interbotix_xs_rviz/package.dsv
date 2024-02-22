@@ -1,0 +1,11 @@
+source;share/interbotix_xs_rviz/hook/cmake_prefix_path.ps1
+source;share/interbotix_xs_rviz/hook/cmake_prefix_path.dsv
+source;share/interbotix_xs_rviz/hook/cmake_prefix_path.sh
+source;share/interbotix_xs_rviz/hook/ld_library_path_lib.ps1
+source;share/interbotix_xs_rviz/hook/ld_library_path_lib.dsv
+source;share/interbotix_xs_rviz/hook/ld_library_path_lib.sh
+source;share/interbotix_xs_rviz/local_setup.bash
+source;share/interbotix_xs_rviz/local_setup.dsv
+source;share/interbotix_xs_rviz/local_setup.ps1
+source;share/interbotix_xs_rviz/local_setup.sh
+source;share/interbotix_xs_rviz/local_setup.zsh

@@ -1,0 +1,5 @@
+[console_scripts]
+armtag_tuner_gui = interbotix_perception_modules.armtag_tuner_gui:main
+picture_snapper = interbotix_perception_modules.picture_snapper:main
+pointcloud_tuner_gui = interbotix_perception_modules.pointcloud_tuner_gui:main
+

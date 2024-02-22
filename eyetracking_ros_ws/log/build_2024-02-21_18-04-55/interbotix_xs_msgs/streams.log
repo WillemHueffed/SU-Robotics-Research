@@ -1,0 +1,590 @@
+[2.184s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs
+[3.011s] -- The C compiler identification is GNU 9.4.0
+[3.011s] -- The CXX compiler identification is GNU 9.4.0
+[3.012s] -- Check for working C compiler: /usr/bin/cc
+[3.012s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.012s] -- Detecting C compiler ABI info
+[3.012s] -- Detecting C compiler ABI info - done
+[3.012s] -- Detecting C compile features
+[3.012s] -- Detecting C compile features - done
+[3.012s] -- Check for working CXX compiler: /usr/bin/c++
+[3.013s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.013s] -- Detecting CXX compiler ABI info
+[3.013s] -- Detecting CXX compiler ABI info - done
+[3.013s] -- Detecting CXX compile features
+[3.013s] -- Detecting CXX compile features - done
+[3.013s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[3.013s] -- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[3.013s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.013s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.118s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.174s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.377s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[3.439s] -- Found trajectory_msgs: 2.2.4 (/opt/ros/galactic/share/trajectory_msgs/cmake)
+[3.635s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.111s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[4.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.817s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.852s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.854s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.888s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.888s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.888s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.914s] -- Found PythonExtra: .so  
+[5.053s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.084s] -- Configuring done
+[5.260s] -- Generating done
+[5.265s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs
+[5.295s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs
+[5.299s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs -- -j12 -l12
+[5.550s] [35m[1mScanning dependencies of target interbotix_xs_msgs__cpp[0m
+[5.582s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.592s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.950s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_generator_c[0m
+[10.978s] [  2%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/arm_joy__functions.c.o[0m
+[10.991s] [  2%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/hex_joy__functions.c.o[0m
+[11.006s] [  3%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_single_command__functions.c.o[0m
+[11.007s] [  4%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_group_command__functions.c.o[0m
+[11.018s] [  5%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/locobot_joy__functions.c.o[0m
+[11.023s] [  6%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_temps__functions.c.o[0m
+[11.030s] [  7%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/turret_joy__functions.c.o[0m
+[11.035s] [  7%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.c.o[0m
+[11.089s] [  8%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/motor_gains__functions.c.o[0m
+[11.106s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/reboot__functions.c.o[0m
+[11.111s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/operating_modes__functions.c.o[0m
+[11.129s] [ 10%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/register_values__functions.c.o[0m
+[11.133s] [ 10%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/robot_info__functions.c.o[0m
+[11.240s] [ 11%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/torque_enable__functions.c.o[0m
+[11.304s] [ 11%] Built target interbotix_xs_msgs__cpp
+[11.321s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.321s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.322s] [ 14%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_generator_c.so[0m
+[11.323s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.388s] [ 14%] Built target interbotix_xs_msgs__rosidl_generator_c
+[11.406s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.407s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.725s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp[0m
+[14.743s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_cpp[0m
+[14.757s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_c[0m
+[14.757s] [ 18%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/arm_joy__type_support.cpp.o[0m
+[14.758s] [ 18%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.cpp.o[0m
+[14.762s] [ 18%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/hex_joy__type_support.cpp.o[0m
+[14.766s] [ 19%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.cpp.o[0m
+[14.771s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_temps__type_support.cpp.o[0m
+[14.772s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.cpp.o[0m
+[14.779s] [ 22%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[14.791s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.cpp.o[0m
+[14.803s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[14.825s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/turret_joy__type_support.cpp.o[0m
+[14.966s] [ 24%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[15.051s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_c[0m
+[15.150s] [ 25%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[15.151s] [ 26%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support.c.o[0m
+[15.250s] [ 27%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[15.266s] [ 28%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support.c.o[0m
+[15.295s] [ 28%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[15.297s] [ 29%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/operating_modes__type_support.cpp.o[0m
+[15.330s] [ 30%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/motor_gains__type_support.cpp.o[0m
+[15.342s] [ 31%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/reboot__type_support.cpp.o[0m
+[15.357s] [ 32%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[15.408s] [ 32%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.c.o[0m
+[15.408s] [ 33%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[15.419s] [ 34%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[15.428s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[15.441s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/register_values__type_support.cpp.o[0m
+[15.509s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[15.535s] [ 36%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/robot_info__type_support.cpp.o[0m
+[15.545s] [ 37%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.c.o[0m
+[15.562s] [ 37%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[15.573s] [ 38%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[15.651s] [ 39%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[15.655s] [ 40%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support.c.o[0m
+[15.693s] [ 41%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[15.730s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[15.779s] [ 43%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/arm_joy__type_support.cpp.o[0m
+[15.790s] [ 43%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[15.790s] [ 44%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.c.o[0m
+[15.802s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[15.838s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[15.902s] [ 45%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.c.o[0m
+[15.909s] [ 46%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/torque_enable__type_support.cpp.o[0m
+[15.924s] [ 46%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[15.940s] [ 47%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[15.997s] [ 48%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[16.038s] [ 49%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[16.054s] [ 50%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support.c.o[0m
+[16.094s] [ 51%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[16.221s] [ 52%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support.c.o[0m
+[16.221s] [ 53%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/hex_joy__type_support.cpp.o[0m
+[16.237s] [ 54%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_c.so[0m
+[16.317s] [ 54%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[16.332s] [ 54%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support.c.o[0m
+[16.346s] [ 55%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/reboot__type_support.c.o[0m
+[16.359s] [ 55%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_group_command__type_support.cpp.o[0m
+[16.378s] [ 56%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/register_values__type_support.c.o[0m
+[16.426s] [ 56%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[16.431s] [ 57%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_single_command__type_support.cpp.o[0m
+[16.454s] [ 58%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/robot_info__type_support.c.o[0m
+[16.470s] [ 59%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_temps__type_support.cpp.o[0m
+[16.487s] [ 59%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support.c.o[0m
+[16.502s] [ 60%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_trajectory_command__type_support.cpp.o[0m
+[16.534s] [ 61%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[16.596s] [ 62%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[16.612s] [ 63%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.624s] [ 64%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[16.697s] [ 64%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/locobot_joy__type_support.cpp.o[0m
+[16.731s] [ 65%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/turret_joy__type_support.cpp.o[0m
+[16.756s] [ 65%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[16.806s] [ 66%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/motor_gains__type_support.cpp.o[0m
+[16.930s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/operating_modes__type_support.cpp.o[0m
+[16.947s] [ 67%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[16.990s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/reboot__type_support.cpp.o[0m
+[17.125s] [ 68%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/register_values__type_support.cpp.o[0m
+[17.201s] [ 69%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[17.275s] [ 69%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[17.292s] [ 70%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/torque_enable__type_support.cpp.o[0m
+[17.302s] [ 71%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/robot_info__type_support.cpp.o[0m
+[17.871s] [ 72%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_cpp.so[0m
+[17.933s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[18.130s] [ 72%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.235s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[18.247s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.274s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c[0m
+[20.313s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support_c.cpp.o[0m
+[20.313s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support_c.cpp.o[0m
+[20.313s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support_c.cpp.o[0m
+[20.313s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support_c.cpp.o[0m
+[20.313s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support_c.cpp.o[0m
+[20.315s] [ 77%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support_c.cpp.o[0m
+[20.316s] [ 78%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support_c.cpp.o[0m
+[20.316s] [ 79%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support_c.cpp.o[0m
+[20.320s] [ 79%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support_c.cpp.o[0m
+[20.325s] [ 82%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support_c.cpp.o[0m
+[20.325s] [ 82%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/reboot__type_support_c.cpp.o[0m
+[20.325s] [ 82%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/register_values__type_support_c.cpp.o[0m
+[20.882s] [ 83%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/robot_info__type_support_c.cpp.o[0m
+[20.899s] [ 83%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support_c.cpp.o[0m
+[21.397s] [ 84%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.488s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[21.499s] [35m[1mScanning dependencies of target interbotix_xs_msgs[0m
+[21.510s] [ 84%] Built target interbotix_xs_msgs
+[21.521s] [35m[1mScanning dependencies of target interbotix_xs_msgs__py[0m
+[21.532s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.743s] [ 85%] Built target interbotix_xs_msgs__py
+[25.754s] [35m[1mScanning dependencies of target interbotix_xs_msgs__python[0m
+[25.796s] [ 86%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_arm_joy_s.c.o[0m
+[25.797s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_single_command_s.c.o[0m
+[25.797s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_hex_joy_s.c.o[0m
+[25.797s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_group_command_s.c.o[0m
+[25.797s] [ 89%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_temps_s.c.o[0m
+[25.797s] [ 89%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c.o[0m
+[25.799s] [ 89%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_operating_modes_s.c.o[0m
+[25.799s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_turret_joy_s.c.o[0m
+[25.800s] [ 91%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_motor_gains_s.c.o[0m
+[25.809s] [ 93%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_register_values_s.c.o[0m
+[25.810s] [ 93%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_locobot_joy_s.c.o[0m
+[25.814s] [ 94%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_reboot_s.c.o[0m
+[25.959s] [ 94%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_torque_enable_s.c.o[0m
+[25.966s] [ 95%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__python.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_robot_info_s.c.o[0m
+[26.111s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/libinterbotix_xs_msgs__python.so[0m
+[26.158s] [ 96%] Built target interbotix_xs_msgs__python
+[26.169s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[26.169s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_c__pyext[0m
+[26.169s] [35m[1mScanning dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[26.191s] [ 97%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.192s] [ 98%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[26.193s] [ 99%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.334s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.334s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.338s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.378s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[26.378s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[26.414s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[26.427s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs -- -j12 -l12
+[26.653s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs
+[26.663s] -- Install configuration: ""
+[26.663s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_xs_msgs
+[26.663s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.663s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.663s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/rosidl_generator_c__visibility_control.h
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_group_command.h
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/hex_joy.h
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.h
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__functions.h
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__functions.c
+[26.664s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__functions.h
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__struct.h
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__functions.c
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.h
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__functions.c
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.h
+[26.665s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__functions.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__type_support.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__functions.c
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__type_support.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__struct.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.h
+[26.666s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__functions.c
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__struct.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__struct.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__struct.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__struct.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__functions.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__functions.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__struct.h
+[26.667s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__functions.c
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__type_support.h
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.h
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.c
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__functions.c
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__type_support.h
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__functions.h
+[26.668s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__functions.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_temps.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_trajectory_command.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/locobot_joy.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/arm_joy.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/turret_joy.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_single_command.h
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.669s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/torque_enable.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/register_values.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/robot_info.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/operating_modes.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__struct.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__type_support.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__type_support.h
+[26.670s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__type_support.h
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__struct.h
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__type_support.h
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__functions.c
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__type_support.h
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__functions.c
+[26.671s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__functions.c
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__functions.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__functions.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__functions.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__type_support.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__struct.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__functions.c
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__functions.c
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__functions.h
+[26.672s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__struct.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__struct.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__struct.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__functions.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__functions.c
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__functions.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/motor_gains.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/reboot.h
+[26.673s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.sh
+[26.674s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.dsv
+[26.674s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so
+[26.674s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so" to ""
+[26.674s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.674s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.674s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_c.h
+[26.675s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_c.h
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.676s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.676s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_c.h
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_c.h
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_c.h
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_c.h
+[26.676s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[26.677s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_c.h
+[26.677s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so
+[26.677s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.677s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.677s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.677s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/dds_fastrtps
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_cpp.hpp
+[26.678s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[26.679s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_cpp.hpp
+[26.679s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.679s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.679s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.679s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[26.679s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[26.679s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_cpp.hpp
+[26.680s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/dds_fastrtps
+[26.680s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_cpp.hpp
+[26.680s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_cpp.hpp
+[26.680s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_cpp.hpp
+[26.680s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.680s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.680s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.680s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.680s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_c.h
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.c
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.c
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__type_support.c
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_c.h
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_c.h
+[26.681s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__type_support.c
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_c.h
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_c.h
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_c.h
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__type_support.c
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.c
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__type_support.c
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_c.h
+[26.682s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.c
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_c.h
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.683s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.683s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_c.h
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_c.h
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__type_support.c
+[26.683s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__type_support.c
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__type_support.c
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_c.h
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__type_support.c
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_c.h
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_c.h
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__type_support.c
+[26.684s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__type_support.c
+[26.685s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_c.h
+[26.685s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so
+[26.685s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.685s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so
+[26.685s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so" to ""
+[26.685s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.685s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.685s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_temps.hpp
+[26.686s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__builder.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__traits.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__builder.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__builder.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__traits.hpp
+[26.686s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__builder.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__struct.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__struct.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__builder.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__builder.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__struct.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__builder.hpp
+[26.687s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__traits.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__struct.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__traits.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__traits.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__struct.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__builder.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__struct.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__traits.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__struct.hpp
+[26.688s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__traits.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__traits.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/arm_joy.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/locobot_joy.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/turret_joy.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_trajectory_command.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_single_command.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/joint_group_command.hpp
+[26.689s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/hex_joy.hpp
+[26.690s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/operating_modes.hpp
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/robot_info.hpp
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/register_values.hpp
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/torque_enable.hpp
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/reboot.hpp
+[26.690s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.690s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__builder.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__traits.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__traits.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__builder.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__struct.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__traits.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__builder.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__struct.hpp
+[26.691s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__struct.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__struct.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__traits.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__builder.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__struct.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__traits.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__builder.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__builder.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__traits.hpp
+[26.692s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__struct.hpp
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/motor_gains.hpp
+[26.693s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs
+[26.693s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg
+[26.693s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.cpp
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__type_support.cpp
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_cpp.hpp
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_cpp.hpp
+[26.693s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.cpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.cpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__type_support.cpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/arm_joy__type_support.cpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_cpp.hpp
+[26.694s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/hex_joy__type_support.cpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.cpp
+[26.695s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv
+[26.695s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__type_support.cpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_cpp.hpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_cpp.hpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/robot_info__type_support.cpp
+[26.695s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__type_support.cpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_cpp.hpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_cpp.hpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_cpp.hpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/motor_gains__type_support.cpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/operating_modes__type_support.cpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/srv/detail/register_values__type_support.cpp
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so
+[26.696s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.696s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so
+[26.697s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so" to ""
+[26.697s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.sh
+[26.697s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.dsv
+[26.697s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/__init__.py
+[26.731s] Compiling '/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/__init__.py'...
+[26.736s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg
+[26.736s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_temps.py
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_hex_joy_s.c
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_locobot_joy.py
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/__init__.py
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_locobot_joy_s.c
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_turret_joy.py
+[26.737s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_group_command_s.c
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_arm_joy_s.c
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_turret_joy_s.c
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_temps_s.c
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_single_command.py
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_arm_joy.py
+[26.738s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_hex_joy.py
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_single_command_s.c
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_group_command.py
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_torque_enable_s.c
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_operating_modes.py
+[26.739s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/__init__.py
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_torque_enable.py
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_reboot_s.c
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_robot_info_s.c
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_reboot.py
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_motor_gains_s.c
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_register_values.py
+[26.740s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_motor_gains.py
+[26.741s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_operating_modes_s.c
+[26.741s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_register_values_s.c
+[26.741s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/srv/_robot_info.py
+[26.741s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[26.741s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.741s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[26.742s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.742s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[26.743s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[26.743s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__python.so
+[26.743s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__python.so" to ""
+[26.743s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.idl
+[26.744s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.idl
+[26.744s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.idl
+[26.744s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.idl
+[26.744s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.idl
+[26.744s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.idl
+[26.745s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.idl
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.idl
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.idl
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.msg
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.msg
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.msg
+[26.746s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.msg
+[26.747s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.msg
+[26.747s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg
+[26.747s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.msg
+[26.747s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.msg
+[26.747s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.srv
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Request.msg
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Response.msg
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.srv
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Request.msg
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Response.msg
+[26.748s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.srv
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Request.msg
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Response.msg
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.srv
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Request.msg
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Response.msg
+[26.749s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.srv
+[26.750s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Request.msg
+[26.750s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Response.msg
+[26.750s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.srv
+[26.750s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Request.msg
+[26.750s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Response.msg
+[26.751s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_msgs
+[26.751s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_msgs
+[26.751s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.sh
+[26.751s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.dsv
+[26.751s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.sh
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.dsv
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.bash
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.sh
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.zsh
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.dsv
+[26.752s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.dsv
+[26.753s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/packages/interbotix_xs_msgs
+[26.753s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_generator_cExport.cmake
+[26.753s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.753s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.754s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.754s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport.cmake
+[26.754s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.754s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_generator_cppExport.cmake
+[26.754s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.755s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.755s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport.cmake
+[26.755s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.755s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake-extras.cmake
+[26.755s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.756s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.756s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.756s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.756s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.756s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.757s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig.cmake
+[26.757s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig-version.cmake
+[26.757s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.xml
+[26.760s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs

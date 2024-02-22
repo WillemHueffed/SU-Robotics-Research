@@ -1,0 +1,218 @@
+[1.107s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs
+[1.488s] -- The C compiler identification is GNU 9.4.0
+[1.488s] -- The CXX compiler identification is GNU 9.4.0
+[1.488s] -- Check for working C compiler: /usr/bin/cc
+[1.488s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.488s] -- Detecting C compiler ABI info
+[1.488s] -- Detecting C compiler ABI info - done
+[1.488s] -- Detecting C compile features
+[1.489s] -- Detecting C compile features - done
+[1.489s] -- Check for working CXX compiler: /usr/bin/c++
+[1.549s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.551s] -- Detecting CXX compiler ABI info
+[1.662s] -- Detecting CXX compiler ABI info - done
+[1.684s] -- Detecting CXX compile features
+[1.684s] -- Detecting CXX compile features - done
+[1.689s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.692s] -- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[1.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.724s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.852s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.081s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.119s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.261s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[2.300s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.366s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.607s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.314s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.347s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.348s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.348s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.374s] -- Found PythonExtra: .so  
+[3.519s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.545s] -- Configuring done
+[3.625s] -- Generating done
+[3.630s] -- Build files have been written to: /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs
+[3.643s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs -DCMAKE_INSTALL_PREFIX=/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs
+[3.644s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs -- -j12 -l12
+[3.805s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.841s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__cpp[0m
+[3.928s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.883s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_generator_c[0m
+[4.944s] [  9%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__functions.c.o[0m
+[5.122s] [  9%] Built target interbotix_moveit_interface_msgs__cpp
+[5.159s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.164s] [ 16%] [32m[1mLinking C shared library libinterbotix_moveit_interface_msgs__rosidl_generator_c.so[0m
+[5.208s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.233s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.356s] [ 22%] Built target interbotix_moveit_interface_msgs__rosidl_generator_c
+[5.434s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.479s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.863s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp[0m
+[5.965s] [ 32%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_moveit_interface_msgs/srv/move_it_plan__type_support.cpp.o[0m
+[6.068s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.110s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_moveit_interface_msgs/srv/detail/dds_fastrtps/move_it_plan__type_support.cpp.o[0m
+[6.150s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_c[0m
+[6.163s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.218s] [ 38%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.cpp.o[0m
+[6.218s] [ 41%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_moveit_interface_msgs/srv/move_it_plan__type_support.cpp.o[0m
+[6.354s] [ 45%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_c.so[0m
+[6.457s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c[0m
+[6.513s] [ 45%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c
+[6.542s] [ 48%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.c.o[0m
+[6.597s] [ 51%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_cpp.so[0m
+[6.629s] [ 54%] [32m[1mLinking C shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.672s] [ 54%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp
+[6.678s] [ 58%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.771s] [ 58%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c
+[6.818s] [ 58%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp
+[6.852s] [ 61%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.039s] [ 61%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp
+[7.073s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.713s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c[0m
+[7.779s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support_c.cpp.o[0m
+[8.536s] [ 70%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.813s] [ 70%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c
+[8.841s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs[0m
+[8.896s] [ 70%] Built target interbotix_moveit_interface_msgs
+[8.984s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__py[0m
+[9.056s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.167s] [ 74%] Built target interbotix_moveit_interface_msgs__py
+[10.182s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__python[0m
+[10.236s] [ 77%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__python.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/srv/_move_it_plan_s.c.o[0m
+[10.391s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/libinterbotix_moveit_interface_msgs__python.so[0m
+[10.451s] [ 80%] Built target interbotix_moveit_interface_msgs__python
+[10.470s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[10.507s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext[0m
+[10.516s] [35m[1mScanning dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.532s] [ 83%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.563s] [ 87%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.615s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.702s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.726s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.841s] [ 96%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext
+[10.855s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.870s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext
+[10.969s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.985s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs -- -j12 -l12
+[11.118s] Invoking command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs
+[11.133s] -- Install configuration: ""
+[11.133s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_moveit_interface_msgs
+[11.133s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.133s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg
+[11.133s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.h
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__functions.h
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.h
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__functions.c
+[11.134s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/move_it_plan.h
+[11.135s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/library_path.sh
+[11.135s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/library_path.dsv
+[11.135s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_generator_c.so
+[11.135s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_generator_c.so" to ""
+[11.135s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.135s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg
+[11.135s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.136s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.136s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.136s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_fastrtps_c.h
+[11.136s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.so
+[11.136s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.136s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.136s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg
+[11.137s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.137s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.137s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.137s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[11.137s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/dds_fastrtps
+[11.137s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.137s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.138s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.138s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg
+[11.138s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.138s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.138s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.138s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_introspection_c.h
+[11.138s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.c
+[11.138s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c.so
+[11.139s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.139s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_c.so
+[11.139s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_c.so" to ""
+[11.139s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.139s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.139s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.139s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp
+[11.140s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__traits.hpp
+[11.140s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__builder.hpp
+[11.140s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/move_it_plan.hpp
+[11.140s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs
+[11.140s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv
+[11.140s] -- Up-to-date: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail
+[11.140s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.cpp
+[11.140s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_introspection_cpp.hpp
+[11.141s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.so
+[11.141s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.141s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_cpp.so
+[11.141s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_cpp.so" to ""
+[11.141s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/pythonpath.sh
+[11.141s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/pythonpath.dsv
+[11.142s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/__init__.py
+[11.194s] Compiling '/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/__init__.py'...
+[11.201s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/srv
+[11.202s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/srv/__init__.py
+[11.202s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/srv/_move_it_plan.py
+[11.202s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/srv/_move_it_plan_s.c
+[11.202s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[11.203s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.203s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[11.204s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.204s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[11.205s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.206s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__python.so
+[11.207s] -- Set runtime path of "/home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__python.so" to ""
+[11.207s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan.idl
+[11.207s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan.srv
+[11.208s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan_Request.msg
+[11.208s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan_Response.msg
+[11.208s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_moveit_interface_msgs
+[11.208s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_moveit_interface_msgs
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/ament_prefix_path.sh
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/ament_prefix_path.dsv
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/path.sh
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/path.dsv
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.bash
+[11.209s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.sh
+[11.210s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.zsh
+[11.210s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.dsv
+[11.210s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/package.dsv
+[11.210s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/packages/interbotix_moveit_interface_msgs
+[11.210s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_generator_cExport.cmake
+[11.211s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.211s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.211s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.212s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cExport.cmake
+[11.212s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.212s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_generator_cppExport.cmake
+[11.214s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.215s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.215s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cppExport.cmake
+[11.215s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.216s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake-extras.cmake
+[11.216s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.217s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.217s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.217s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.218s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.218s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.218s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgsConfig.cmake
+[11.219s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgsConfig-version.cmake
+[11.219s] -- Installing: /home/locobot/SU_Robotics/eyetracking_ros_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/package.xml
+[11.232s] Invoked command in '/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_moveit_interface_msgs
