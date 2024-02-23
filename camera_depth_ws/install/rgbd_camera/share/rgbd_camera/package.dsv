@@ -1,0 +1,3 @@
+source;share/rgbd_camera/hook/pythonpath.ps1
+source;share/rgbd_camera/hook/pythonpath.dsv
+source;share/rgbd_camera/hook/pythonpath.sh
