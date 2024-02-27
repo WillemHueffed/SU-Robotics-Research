@@ -38,9 +38,9 @@ class GestureRecognitionNode(Node):
 
     def publish_result(self, result: GestureRecognizerResult, output_image: mp.Image, timestamp_ms: int):
         if result.gestures:
-            gesture = str(result.gestures[0])  # Publish only the first detected gesture
+            self.get_logger().info("{}".format(result.gestures[0]))
             msg = String()
-            msg.data = gesture
+            msg.data = result.gestures[0][0].category_name
             self.publisher_.publish(msg)
 
     def run(self):

@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'gesture_recognizer = gesture_control.gesture_recognizer:main'
+            'gesture_recognizer = gesture_control.gesture_recognizer:main',
+            'command_translator = gesture_control.command_translator:main'
         ],
     },
 )
