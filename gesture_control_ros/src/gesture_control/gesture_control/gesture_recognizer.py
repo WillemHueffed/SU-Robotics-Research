@@ -7,9 +7,6 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 import pyrealsense2 as rs
 from std_msgs.msg import String
-from cv_bridge import CvBridge
-import cv2
-from sensor_msgs.msg import Image
 
 BaseOptions = mp.tasks.BaseOptions
 GestureRecognizer = mp.tasks.vision.GestureRecognizer
@@ -39,10 +36,6 @@ class GestureRecognitionNode(Node):
         # Create publisher for recognized gesture
         self.publisher_ = self.create_publisher(String, 'recognized_gesture', 10)
 
-        # Create OpenCV <-> Ros2 bridge to allow image conversion
-        self.bridge = CvBridge()
-        self.camera_publisher_ = self.create_publisher(Image, 'rs_camera_feed', 10)
-
     def publish_result(self, result: GestureRecognizerResult, output_image: mp.Image, timestamp_ms: int):
         if result.gestures:
             self.get_logger().info("{}".format(result.gestures[0]))
@@ -67,10 +60,6 @@ class GestureRecognitionNode(Node):
             mp_img = mp.Image(image_format=mp.ImageFormat.SRGB, data=color_frame_data)
             self.recognizer.recognize_async(mp_img, frame_timestamp_ms)
 
-            # Publish image data
-            # np array -> ros image format ->  publish
-            img_msg = self.bridge.cv2_to_imgmsg(color_frame_data, encoding='bgr8')
-            self.camera_publisher_.publish(img_msg)
 
 def main(args=None):
     rclpy.init(args=args)
