@@ -22,5 +22,10 @@ def generate_launch_description():
             package='gesture_control',
             executable='video_display',
             name='video_display'
-            )
+            ),
+        Node(
+            package='gesture_control',
+            executable='gesture_recognizer',
+            name='gesture_recognizer'
+            ),
     ])

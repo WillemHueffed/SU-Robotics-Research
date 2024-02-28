@@ -22,6 +22,8 @@ class GestureRecognitionNode(Node):
         # Create publisher for recognized gesture
         self.publisher_ = self.create_publisher(Image, 'rs_camera_feed', 10)
 
+        self.timestamp_publisher = self.create_publisher(String, 'frame_timestamp', 10)
+
         self.bridge = CvBridge()
 
 
@@ -40,6 +42,9 @@ class GestureRecognitionNode(Node):
 
             img_msg = self.bridge.cv2_to_imgmsg(color_frame_data, encoding='bgr8')
             self.publisher_.publish(img_msg)
+            msg = String()
+            msg.data = str(frame_timestamp_ms)
+            self.timestamp_publisher.publish(msg)
 
 def main(args=None):
     rclpy.init(args=args)

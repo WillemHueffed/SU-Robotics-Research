@@ -16,7 +16,6 @@ class VideoDisplay(Node):
             cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
             cv2.imshow('RS Video Feed', cv_image)
             cv2.waitKey(1)
-            self.get_logger().info('working?')
         except Exception as e:
             self.get_logger().error('Error in video node')
 
