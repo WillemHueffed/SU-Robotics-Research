@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             'gesture_recognizer = gesture_control.gesture_recognizer:main',
             'command_translator = gesture_control.command_translator:main',
-            'video_display = gesture_control.video_display:main'
+            'video_display = gesture_control.video_display:main',
+            'camera_feed = gesture_control.camera_feed:main'
         ],
     },
 )
