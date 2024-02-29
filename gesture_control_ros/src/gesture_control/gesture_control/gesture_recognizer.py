@@ -41,13 +41,13 @@ class GestureRecognitionNode(Node):
 
     def publish_result(self, result: GestureRecognizerResult, output_image: mp.Image, timestamp_ms: int):
         if result.gestures:
-            self.get_logger().info("{}".format(result.gestures[0]))
+            self.get_logger().info("{}".format(result.gestures[0][0].category_name))
             msg = String()
             msg.data = result.gestures[0][0].category_name
             self.publisher_.publish(msg)
 
     def listener_callback(self, msg):
-        self.get_logger().info("listener_callback")
+        #self.get_logger().info("listener_callback")
         img = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
         mp_img = mp.Image(image_format=mp.ImageFormat.SRGB, data=img)
         self.img = mp_img
@@ -55,10 +55,9 @@ class GestureRecognitionNode(Node):
         #self.recognizer.recognize_async(mp_img, frame_timestamp_ms)
     
     def timestamp_callback(self, msg):
-        self.get_logger().info("timestep callback")
+        #self.get_logger().info("timestep callback")
         if self.img:
             timestamp = int(msg.data)
-            self.get_logger().info("{}".format(type(self.img)))
             #mp_img = mp.Image(image_format=mp.ImageFormat.SRGB, data=self.img)
             self.recognizer.recognize_async(self.img, timestamp)
 

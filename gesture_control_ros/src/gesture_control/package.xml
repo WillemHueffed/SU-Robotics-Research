@@ -15,11 +15,14 @@
   <build_depend>rclpy</build_depend>
   <build_depend>cv_bridge</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>tkinter</build_depend>
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>gensture_interfaces</exec_depend>
+  <exec_depend>tkinter</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

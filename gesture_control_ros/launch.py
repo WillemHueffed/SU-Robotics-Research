@@ -28,4 +28,9 @@ def generate_launch_description():
             executable='gesture_recognizer',
             name='gesture_recognizer'
             ),
+        Node(
+            package='gesture_control',
+            executable='ee_state_tracker',
+            name='ee_state_tracker'
+            )
     ])
