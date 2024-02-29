@@ -1,3 +1,0 @@
-[console_scripts]
-gesture_recognizer = gesture_control.gesture_recognizer:main
-
