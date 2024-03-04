@@ -1,7 +1,7 @@
-int64 x
-int64 y
-int64 z
-int64 x_rotation
-int64 y_rotation
-int64 z_rotation
-bool reset false
+float32 x
+float32 y
+float32 z
+float32 x_rotation
+float32 y_rotation
+float32 z_rotation
+bool reset

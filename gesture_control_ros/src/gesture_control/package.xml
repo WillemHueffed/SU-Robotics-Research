@@ -16,7 +16,15 @@
   <build_depend>cv_bridge</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>tkinter</build_depend>
+  <build_depend>interbotix_xs_modules</build_depend>
+  <build_depend>threading</build_depend>
+  <build_depend>multiprocessing</build_depend>
+  <build_depend>socket</build_depend>
 
+  <exec_depend>socket</exec_depend>
+  <exec_depend>multiprocessing</exec_depend>
+  <exec_depend>threading</exec_depend>
+  <exec_depend>interbotix_xs_modules</exec_depend>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
