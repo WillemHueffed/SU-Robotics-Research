@@ -34,6 +34,10 @@ def main():
                 #decoded_data = data.decode()
                 #print("decoded data: {}".format(decoded_data))
                 # Interpret the received data and execute corresponding commands
+
+                # Bug, works the first time then the socket buffer becomes backed up
+                # the json loader doesn't like reading in multiple messages at once
+                # need to add some kind of input processing
                 data = data.decode()
                 print(data)
                 extracted_data = json.loads(data)
@@ -43,8 +47,8 @@ def main():
                 goal_z = extracted_data['z']
 
                 locobot.arm.set_ee_pose_components(x=goal_x, z=goal_z)
-                locobot.arm.go_to_sleep_pose()
                 time.sleep(5)
+                locobot.arm.go_to_sleep_pose()
 
     finally:
         # Clean up the connection
