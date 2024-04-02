@@ -1,4 +1,0 @@
-[console_scripts]
-depth_node = rgbd_camera.depth_node:main
-tf_node = rgbd_camera.tf_node:main
-
