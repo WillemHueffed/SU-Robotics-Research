@@ -1,4 +1,0 @@
-source;share/interbotix_ros_xseries/local_setup.bash
-source;share/interbotix_ros_xseries/local_setup.dsv
-source;share/interbotix_ros_xseries/local_setup.sh
-source;share/interbotix_ros_xseries/local_setup.zsh

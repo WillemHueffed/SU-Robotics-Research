@@ -1,1 +1,0 @@
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_common_sim/ament_cmake_core/interbotix_common_simConfig.cmake

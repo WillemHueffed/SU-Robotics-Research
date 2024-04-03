@@ -1,8 +1,0 @@
-[01m[K/home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)[m[K’:
-[01m[K/home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:776:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdata_read[m[K’ [[01;35m[K-Wvla[m[K]
-  776 |   uint8_t [01;35m[Kdata_read[m[K[length];
-      |           [01;35m[K^~~~~~~~~[m[K
-[01m[K/home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)[m[K’:
-[01m[K/home/locobot/SU_Robotics/eyetracking_ros_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:1012:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmulti_parameter[m[K’ [[01;35m[K-Wvla[m[K]
- 1012 |   uint8_t [01;35m[Kmulti_parameter[m[K[4*data_num_for_each_id];
-      |           [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -1,4 +1,0 @@
-source;share/interbotix_perception_pipelines/local_setup.bash
-source;share/interbotix_perception_pipelines/local_setup.dsv
-source;share/interbotix_perception_pipelines/local_setup.sh
-source;share/interbotix_perception_pipelines/local_setup.zsh

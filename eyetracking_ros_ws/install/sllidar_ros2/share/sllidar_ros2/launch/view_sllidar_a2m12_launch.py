@@ -1,1 +1,0 @@
-/home/locobot/SU_Robotics/eyetracking_ros_ws/src/sllidar_ros2/launch/view_sllidar_a2m12_launch.py

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xs_msgs/rosidl_generator_py/interbotix_xs_msgs/libinterbotix_xs_msgs__python.so" "TARGETS" "interbotix_xs_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

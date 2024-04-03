@@ -1,9 +1,0 @@
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/install/strip.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/install/local.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/install.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/list_install_components.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/rebuild_cache.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/edit_cache.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/test.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/interbotix_ros_xseries_uninstall.dir
-/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_ros_xseries/CMakeFiles/uninstall.dir

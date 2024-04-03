@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/locobot/SU_Robotics/eyetracking_ros_ws/build/interbotix_xslocobot_joy/xslocobot_joy" "TARGETS" "xslocobot_joy" "DESTINATION" "lib/interbotix_xslocobot_joy")

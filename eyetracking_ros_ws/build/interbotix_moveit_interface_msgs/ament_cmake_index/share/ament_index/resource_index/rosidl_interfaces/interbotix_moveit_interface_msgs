@@ -1,4 +1,0 @@
-srv/MoveItPlan.idl
-srv/MoveItPlan.srv
-srv/MoveItPlan_Request.msg
-srv/MoveItPlan_Response.msg
