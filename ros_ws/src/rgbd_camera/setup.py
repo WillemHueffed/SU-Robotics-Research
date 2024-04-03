@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'depth_node = rgbd_camera.depth_node:main'
+            'camera_coord_node = rgbd_camera.camera_coord_node:main'
         ],
     },
 )

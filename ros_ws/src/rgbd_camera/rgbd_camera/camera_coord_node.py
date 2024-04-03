@@ -9,7 +9,7 @@ import time
 
 class RealSenseNode(Node):
     def __init__(self):
-        super().__init__("realsense_node")
+        super().__init__("camera_coord_node")
 
         # Create a means of publishing
         self.publisher_ = self.create_publisher(String, "camera_coords", 10)
