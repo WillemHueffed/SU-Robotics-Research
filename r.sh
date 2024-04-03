@@ -1,0 +1,1 @@
+ros2 launch interbotix_xslocobot_control xslocobot_control.launch.py robot_model:=locobot_wx250s
