@@ -22,3 +22,10 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
 ### manual_control.py
   - Allows for manual control of robot via the command line -> used for testing
   - To use run the `xs_sdk`, then `command_executor.py`, and then this script
+
+## Common Issues
+### XS_SDK is running -> commannd_executor.py can't find sdk
+- try: `ros2 topic list` if it isn't showing any nodes under the locobot namespace do the following
+- go to `http://192.168.186.2/wifi` and reconnect base to su-peer
+- restart NUC computer (assuming developing directly on NUC)
+- try viewing topics again, should be fixed
