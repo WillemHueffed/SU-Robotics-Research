@@ -3,13 +3,14 @@ import json
 from rclpy.node import Node
 import socket
 
+
 class SocketPublisher(Node):
     def __init__(self):
-        super().__init__('socket_publisher')
+        super().__init__("socket_publisher")
 
         # Create a socket
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.client_address = ('localhost', 12345)
+        self.client_address = ("localhost", 12346)
         self.client_socket.connect(self.client_address)
 
         print("Socket initialized")
@@ -20,12 +21,7 @@ class SocketPublisher(Node):
 
     def send_command(self, x, y, z, reset):
         # Prepare the message
-        msg = {
-            'x': x,
-            'y': y,
-            'z': z,
-            'reset': True 
-        }
+        msg = {"x": x, "y": y, "z": z, "reset": True}
         json_msg = json.dumps(msg)
 
         # Send the message
@@ -44,6 +40,7 @@ class SocketPublisher(Node):
                 print("\nExiting.")
                 break
 
+
 def main(args=None):
     rclpy.init(args=args)
     socket_publisher = SocketPublisher()
@@ -51,6 +48,6 @@ def main(args=None):
     socket_publisher.destroy_node()
     rclpy.shutdown()
 
-if __name__ == '__main__':
-    main()
 
+if __name__ == "__main__":
+    main()

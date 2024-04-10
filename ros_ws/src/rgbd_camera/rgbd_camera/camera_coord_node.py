@@ -17,6 +17,7 @@ class RealSenseNode(Node):
         # Initialize global variables for clicked coordinates
         self.clicked_x = 0.5
         self.clicked_y = 0.5
+        self.clicked = False
 
         # Configure depth and color streams
         self.pipeline = rs.pipeline()
@@ -56,6 +57,8 @@ class RealSenseNode(Node):
             # Calculate the normalized coordinates
             self.clicked_x = x / width
             self.clicked_y = 1 - (y / height)
+            if not self.clicked:
+                self.clicked = True
 
     def run(self):
         try:
@@ -95,13 +98,15 @@ class RealSenseNode(Node):
                 )
 
                 # publish message
-                msg = String()
-                msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
-                    (self.clicked_x, self.clicked_y), depth_point
-                )
-                msg.data = "{" + msg.data + "}"
-                self.publisher_.publish(msg)
-                self.get_logger().info("Publishing: {}".format(msg.data))
+                if self.clicked:
+                    msg = String()
+                    msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
+                        (self.clicked_x, self.clicked_y), depth_point
+                    )
+                    msg.data = "{" + msg.data + "}"
+                    self.publisher_.publish(msg)
+                    self.get_logger().info("Publishing: {}".format(msg.data))
+                    self.clicked = False
 
                 # Display the color image in the window
                 cv2.imshow("Color", color_image)
