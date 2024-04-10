@@ -19,9 +19,13 @@ class SocketPublisher(Node):
         self.y = 0
         self.z = 0
 
-    def send_command(self, x, y, z, reset):
+    def send_command(self, x, y, z):
         # Prepare the message
-        msg = {"x": x, "y": y, "z": z, "reset": True}
+        msg = {
+            "x": x,
+            "y": y,
+            "z": z,
+        }
         json_msg = json.dumps(msg)
 
         # Send the message
@@ -33,7 +37,7 @@ class SocketPublisher(Node):
                 x = float(input("Enter x value: "))
                 y = float(input("Enter y value: "))
                 z = float(input("Enter z value: "))
-                self.send_command(x, y, z, True)
+                self.send_command(x, y, z)
             except ValueError:
                 print("Invalid input. Please enter a number.")
             except KeyboardInterrupt:
