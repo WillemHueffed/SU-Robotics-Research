@@ -96,7 +96,7 @@ class RealSenseNode(Node):
 
                 # publish message
                 msg = String()
-                msg.data = "screen_coords: {}, world_coords: {}".format(
+                msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
                     (self.clicked_x, self.clicked_y), depth_point
                 )
                 msg.data = "{" + msg.data + "}"
