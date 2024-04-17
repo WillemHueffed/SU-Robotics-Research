@@ -1,7 +1,10 @@
 import socket
+import math
 import json
 import time
 from interbotix_xs_modules.xs_robot.locobot import InterbotixLocobotXS
+
+PORT = 12347
 
 
 def main():
@@ -16,7 +19,7 @@ def main():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Bind the socket to a port
-    server_address = ("localhost", 12346)
+    server_address = ("localhost", PORT)
     server_socket.bind(server_address)
 
     # Listen for incoming connections
@@ -34,6 +37,8 @@ def main():
             if data:
                 # Decode and process the received data
                 data = data.decode()
+                # Replace single with double quotes
+                data = str(data).replace("'", chr(34))
                 print("Received data:", data)
 
                 # Split the data into individual JSON messages
@@ -41,13 +46,13 @@ def main():
                 for msg in messages:
                     try:
                         extracted_data = json.loads(msg)
-                        print("Extracted data:", extracted_data)
-                        goal_x = extracted_data["x"]
-                        goal_y = extracted_data["y"]
-                        goal_z = extracted_data["z"]
+                        goal_x = round(float(extracted_data["x"]), ndigits=2)
+                        goal_y = round(float(extracted_data["y"]), ndigits=2)
+                        goal_z = round(float(extracted_data["z"]), ndigits=2)
+                        print("goal pose: {}, {}, {}".format(goal_x, goal_y, goal_z))
 
                         locobot.arm.set_ee_pose_components(x=goal_x, y=goal_y, z=goal_z)
-                        time.sleep(5)
+                        # time.sleep(5)
                         locobot.arm.go_to_sleep_pose()
                     except json.JSONDecodeError as e:
                         print("Error decoding JSON:", e)

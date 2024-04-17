@@ -23,9 +23,10 @@ class CoordTranslatorNode(Node):
         camera_y = float(camera_coords[1])
         camera_z = float(camera_coords[2])
         # The transform in the readme is from root -> camera link => subtract to go from link -> root
-        arm_x = camera_z - 0.09
-        arm_y = -1 * (camera_x - 0.01)
-        arm_z = -1 * (camera_y - 0.05773)
+        # These float literals are found empirically (guess and check lol) -> manually tuned
+        arm_x = camera_z - 0.014
+        arm_y = -1 * (camera_x)
+        arm_z = -1 * (camera_y) + 0.41
         outgoing_msg = f'"x": "{arm_x}", "y": "{arm_y}", "z": "{arm_z}"'
         outgoing_msg = "{" + outgoing_msg + "}"
         outgoing_msg_ros = String()
