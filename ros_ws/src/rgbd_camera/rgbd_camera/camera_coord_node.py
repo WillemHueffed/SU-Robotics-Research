@@ -83,6 +83,7 @@ class RealSenseNode(Node):
         eye_data = json.loads(msg.data)
         # TODO: Because the video feed isn't the full screen we need to map the
         # [0,1] coords of the entire screen to the [0,1] of just the video feed
+        # TODO: This is currently just echoing to the console...
         screen_x = eye_data["x"]
         screen_y = eye_data["y"]
         msg = String()
@@ -138,6 +139,14 @@ class RealSenseNode(Node):
             self.get_logger().info("Publishing: {}".format(msg.data))
             self.clicked = False
 
+        # Do coordinate normalization
+        # TODO: This will need to be moved up to before
+        # we grab the depth data => starting with visualizing it
+
+        height, width = color_image.shape[:2]
+        norm_x = int(self.clicked_x * width)
+        norm_y = int(self.clicked_y * height)
+        cv2.circle(color_image, (norm_x, norm_y), 5, (0, 255, 0), -1)
         # Display the color image in the window
         cv2.imshow("Color", color_image)
         cv2.imshow("Depth", depth_colormap)
