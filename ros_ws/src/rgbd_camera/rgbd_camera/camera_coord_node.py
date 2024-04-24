@@ -55,11 +55,17 @@ class RealSenseNode(Node):
         depth_image = np.asanyarray(depth_frame.get_data())
 
         # Set up the mouse callback function
-        cv2.namedWindow("Color", cv2.WINDOW_AUTOSIZE)
+        # cv2.namedWindow("Color", cv2.WINDOW_AUTOSIZE)
+        # cv2.setMouseCallback("Color", self.mouse_callback, color_image)
+        cv2.namedWindow("Color", cv2.WINDOW_NORMAL)
+        cv2.setWindowProperty("Color", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
         cv2.setMouseCallback("Color", self.mouse_callback, color_image)
+
         cv2.namedWindow("Depth", cv2.WINDOW_AUTOSIZE)
         cv2.setMouseCallback("Depth", self.mouse_callback, depth_image)
 
+        # Poll the camera for data. If you use a while loop it will block
+        # rclpy from running
         self.timer_ = self.create_timer(CAMERA_POLLING_RATE, self.run)
 
     def mouse_callback(self, event, x, y, flags, param):
