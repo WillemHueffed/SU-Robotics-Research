@@ -7,6 +7,8 @@ import cv2
 import time
 import json
 
+CAMERA_POLLING_RATE = 0.0001
+
 
 class RealSenseNode(Node):
     def __init__(self):
@@ -57,7 +59,8 @@ class RealSenseNode(Node):
         cv2.setMouseCallback("Color", self.mouse_callback, color_image)
         cv2.namedWindow("Depth", cv2.WINDOW_AUTOSIZE)
         cv2.setMouseCallback("Depth", self.mouse_callback, depth_image)
-        self.run()
+
+        self.timer_ = self.create_timer(CAMERA_POLLING_RATE, self.run)
 
     def mouse_callback(self, event, x, y, flags, param):
         if event == cv2.EVENT_LBUTTONDOWN:
@@ -71,7 +74,6 @@ class RealSenseNode(Node):
                 self.clicked = True
 
     def listener_callback(self, msg):
-        self.get_logger().error("! in listener callback")
         eye_data = json.loads(msg.data)
         # TODO: Because the video feed isn't the full screen we need to map the
         # [0,1] coords of the entire screen to the [0,1] of just the video feed
@@ -86,62 +88,57 @@ class RealSenseNode(Node):
         self.get_logger().info("Publishing: {}".format(msg.data))
 
     def run(self):
-        try:
-            while rclpy.ok():
-                # Wait for a coherent pair of aligned frames: depth and color
-                frames = self.pipeline.wait_for_frames()
-                aligned_frames = self.align.process(frames)
+        # Wait for a coherent pair of aligned frames: depth and color
+        frames = self.pipeline.wait_for_frames()
+        aligned_frames = self.align.process(frames)
 
-                # Extract frame data
-                depth_frame = aligned_frames.get_depth_frame()
-                color_frame = aligned_frames.get_color_frame()
-                if not depth_frame or not color_frame:
-                    continue
+        # Extract frame data
+        depth_frame = aligned_frames.get_depth_frame()
+        color_frame = aligned_frames.get_color_frame()
+        if not depth_frame or not color_frame:
+            self.get_logger().error("null depth or color frame")
+            return
 
-                # Cast frames to image format via numpy
-                depth_image = np.asanyarray(depth_frame.get_data())
-                depth_colormap = cv2.applyColorMap(
-                    cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET
-                )
-                color_image = np.asanyarray(color_frame.get_data())
+        # Cast frames to image format via numpy
+        depth_image = np.asanyarray(depth_frame.get_data())
+        depth_colormap = cv2.applyColorMap(
+            cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET
+        )
+        color_image = np.asanyarray(color_frame.get_data())
 
-                # Get the depth data from pos x,y | flip the y value via 1-y -> depth frame y coords is opposite eye tracker
-                xyDepth = depth_frame.get_distance(
-                    int(self.clicked_x * depth_frame.width),
-                    int((1 - self.clicked_y) * depth_frame.height),
-                )
-                # print("Clicked at position: ({}, {}) depth is: {}".format(self.clicked_x, self.clicked_y, xyDepth))
+        # Get the depth data from pos x,y | flip the y value via 1-y -> depth frame y coords is opposite eye tracker
+        xyDepth = depth_frame.get_distance(
+            int(self.clicked_x * depth_frame.width),
+            int((1 - self.clicked_y) * depth_frame.height),
+        )
+        # print("Clicked at position: ({}, {}) depth is: {}".format(self.clicked_x, self.clicked_y, xyDepth))
 
-                # Point cloud
-                x_pxl = int(self.clicked_x * depth_frame.width)
-                y_pxl = int((1 - self.clicked_y) * depth_frame.height)
-                depth_intrinsics = (
-                    depth_frame.profile.as_video_stream_profile().intrinsics
-                )
-                self.depth_point = rs.rs2_deproject_pixel_to_point(
-                    depth_intrinsics, [x_pxl, y_pxl], xyDepth
-                )
+        # Point cloud
+        x_pxl = int(self.clicked_x * depth_frame.width)
+        y_pxl = int((1 - self.clicked_y) * depth_frame.height)
+        depth_intrinsics = depth_frame.profile.as_video_stream_profile().intrinsics
+        self.depth_point = rs.rs2_deproject_pixel_to_point(
+            depth_intrinsics, [x_pxl, y_pxl], xyDepth
+        )
 
-                # publish message
-                if self.clicked:
-                    msg = String()
-                    msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
-                        (self.clicked_x, self.clicked_y), self.depth_point
-                    )
-                    msg.data = "{" + msg.data + "}"
-                    self.publisher_.publish(msg)
-                    self.get_logger().info("Publishing: {}".format(msg.data))
-                    self.clicked = False
+        # publish message
+        if self.clicked:
+            msg = String()
+            msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
+                (self.clicked_x, self.clicked_y), self.depth_point
+            )
+            msg.data = "{" + msg.data + "}"
+            self.publisher_.publish(msg)
+            self.get_logger().info("Publishing: {}".format(msg.data))
+            self.clicked = False
 
-                # Display the color image in the window
-                cv2.imshow("Color", color_image)
-                cv2.imshow("Depth", depth_colormap)
+        # Display the color image in the window
+        cv2.imshow("Color", color_image)
+        cv2.imshow("Depth", depth_colormap)
 
-                time.sleep(0.100)  # Sleep for 100 ms
+        time.sleep(0.100)  # Sleep for 100 ms
 
-                cv2.waitKey(1)
-        finally:
-            self.pipeline.stop()
+        cv2.waitKey(1)
 
 
 def main(args=None):
