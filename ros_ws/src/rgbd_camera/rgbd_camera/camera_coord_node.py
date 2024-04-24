@@ -5,12 +5,21 @@ import pyrealsense2 as rs
 import numpy as np
 import cv2
 import time
+import json
 
 
 class RealSenseNode(Node):
     def __init__(self):
         super().__init__("camera_coord_node")
 
+        # Depth point needs to be in a "global" scope to allow the subscriber
+        # callback function to access it
+        self.depth_point = -1
+
+        # Create a subscriber that listens to output from eye gaze node
+        self.subscriber_ = self.create_subscription(
+            String, "eye_data", self.listener_callback, 10
+        )
         # Create a means of publishing
         self.publisher_ = self.create_publisher(String, "camera_coords", 10)
 
@@ -60,6 +69,21 @@ class RealSenseNode(Node):
             if not self.clicked:
                 self.clicked = True
 
+    def listener_callback(self, msg):
+        self.get_logger().info("! in listener callback")
+        eye_data = json.loads(msg.data)
+        # TODO: Because the video feed isn't the full screen we need to map the
+        # [0,1] coords of the entire screen to the [0,1] of just the video feed
+        screen_x = eye_data["x"]
+        screen_y = eye_data["y"]
+        msg = String()
+        msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
+            (screen_x, screen_y), self.depth_point
+        )
+        msg.data = "{" + msg.data + "}"
+        self.publisher_.publish(msg)
+        self.get_logger().info("Publishing: {}".format(msg.data))
+
     def run(self):
         try:
             while rclpy.ok():
@@ -93,7 +117,7 @@ class RealSenseNode(Node):
                 depth_intrinsics = (
                     depth_frame.profile.as_video_stream_profile().intrinsics
                 )
-                depth_point = rs.rs2_deproject_pixel_to_point(
+                self.depth_point = rs.rs2_deproject_pixel_to_point(
                     depth_intrinsics, [x_pxl, y_pxl], xyDepth
                 )
 
@@ -101,7 +125,7 @@ class RealSenseNode(Node):
                 if self.clicked:
                     msg = String()
                     msg.data = '"screen_coords": "{}", "world_coords": "{}"'.format(
-                        (self.clicked_x, self.clicked_y), depth_point
+                        (self.clicked_x, self.clicked_y), self.depth_point
                     )
                     msg.data = "{" + msg.data + "}"
                     self.publisher_.publish(msg)
