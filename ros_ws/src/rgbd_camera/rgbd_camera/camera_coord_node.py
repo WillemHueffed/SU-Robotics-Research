@@ -57,6 +57,7 @@ class RealSenseNode(Node):
         cv2.setMouseCallback("Color", self.mouse_callback, color_image)
         cv2.namedWindow("Depth", cv2.WINDOW_AUTOSIZE)
         cv2.setMouseCallback("Depth", self.mouse_callback, depth_image)
+        self.run()
 
     def mouse_callback(self, event, x, y, flags, param):
         if event == cv2.EVENT_LBUTTONDOWN:
@@ -70,7 +71,7 @@ class RealSenseNode(Node):
                 self.clicked = True
 
     def listener_callback(self, msg):
-        self.get_logger().info("! in listener callback")
+        self.get_logger().error("! in listener callback")
         eye_data = json.loads(msg.data)
         # TODO: Because the video feed isn't the full screen we need to map the
         # [0,1] coords of the entire screen to the [0,1] of just the video feed
@@ -146,7 +147,6 @@ class RealSenseNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     real_sense_node = RealSenseNode()
-    real_sense_node.run()
     rclpy.spin(real_sense_node)
     rclpy.shutdown()
 

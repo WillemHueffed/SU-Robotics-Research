@@ -17,5 +17,11 @@ def generate_launch_description():
                 executable="coord_translator_node",
                 name="coord_translator_node",
             ),
+            Node(
+                package="rgbd_camera",
+                namespace="camera_node_ns",
+                executable="eye_gaze_node",
+                name="eye_gaze_node",
+            ),
         ]
     )
