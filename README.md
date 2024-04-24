@@ -20,6 +20,7 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
 ### command_executor.py
   - Runs the python API which interfaces with the robot via the `interbotix xs_sdk`. Communicates with ROS via a socket bound to `localhost:12345`.
 ### manual_control.py
+  - (may be currently deprecated?)
   - Allows for manual control of robot via the command line -> used for testing
   - To use run the `xs_sdk`, then `command_executor.py`, and then this script
 
@@ -29,3 +30,4 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
 - go to `http://192.168.186.2/wifi` and reconnect base to su-peer
 - restart NUC computer (assuming developing directly on NUC)
 - try viewing topics again, should be fixed
+
