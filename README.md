@@ -24,10 +24,25 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
   - Allows for manual control of robot via the command line -> used for testing
   - To use run the `xs_sdk`, then `command_executor.py`, and then this script
 
+## Dependencies
+### Software
+- [ROS2 Galactic](https://docs.ros.org/en/galactic/index.html)
+- [Trossen Interbotix ROS2 Packages](https://docs.trossenrobotics.com/interbotix_xslocobots_docs/ros2_packages.html)
+- [Intel Realsense SDK](https://dev.intelrealsense.com/docs/docs-get-started?_ga=2.43295590.2124744568.1709670869-273457915.1707248308)
+- [Google Media Pipe](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer#configurations_options)
+- [Ubuntu 20.04 LTS](https://ubuntu.com/)
+- Python3
+- C++
+### Hardware
+- [Locobot-WX250s](https://www.trossenrobotics.com/locobot-wx250.aspx)
+- Intel Realsense D435 RGBD camera (Comes with the Locobot)
+### Python Libraries
+- scipy
+- numpy
+
 ## Common Issues
 ### XS_SDK is running -> commannd_executor.py can't find sdk
 - try: `ros2 topic list` if it isn't showing any nodes under the locobot namespace do the following
 - go to `http://192.168.186.2/wifi` and reconnect base to su-peer
 - restart NUC computer (assuming developing directly on NUC)
 - try viewing topics again, should be fixed
-
