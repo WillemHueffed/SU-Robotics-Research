@@ -16,6 +16,10 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
 ### coord_translator_node
   - listens to `camera_coords` -> applies static transform -> publishes transformed coords to `translated_coords`
 
+### eye_gaze_node
+ - Currently a WIP
+ - Goal: Read the datastream from the tobii hardware -> calculate fixation in realtime -> publish to topic the coord_translator_node is listening to
+
 ## Scripts
 ### command_executor.py
   - Runs the python API which interfaces with the robot via the `interbotix xs_sdk`. Communicates with ROS via a socket bound to `localhost:12345`.
@@ -23,6 +27,10 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
   - (may be currently deprecated?)
   - Allows for manual control of robot via the command line -> used for testing
   - To use run the `xs_sdk`, then `command_executor.py`, and then this script
+
+## eye_tracking direcotyr
+- Contains a bunch of python scripts that are used to develop the realtime eye tracking algorithm
+- Also contain code examples of interfacing with the tobii hardware
 
 ## Dependencies
 ### Software
