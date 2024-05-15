@@ -1,9 +1,14 @@
 # First import the library
 import pyrealsense2 as rs
+
 # Import Numpy for easy array manipulation
 import numpy as np
+
 # Import OpenCV for easy image rendering
 import cv2
+
+# Import datetime for creating meaningful file names
+import datetime
 
 # Create a pipeline
 pipeline = rs.pipeline()
@@ -20,7 +25,7 @@ device_product_line = str(device.get_info(rs.camera_info.product_line))
 
 found_rgb = False
 for s in device.sensors:
-    if s.get_info(rs.camera_info.name) == 'RGB Camera':
+    if s.get_info(rs.camera_info.name) == "RGB Camera":
         found_rgb = True
         break
 if not found_rgb:
@@ -38,10 +43,6 @@ depth_sensor = profile.get_device().first_depth_sensor()
 depth_scale = depth_sensor.get_depth_scale()
 print("Depth Scale is: ", depth_scale)
 
-# We will be removing the background of objects more than
-#  clipping_distance_in_meters meters away
-clipping_distance_in_meters = 1  # 1 meter
-clipping_distance = clipping_distance_in_meters / depth_scale
 
 # Create an align object
 # rs.align allows us to perform alignment of depth frames to others frames
@@ -60,7 +61,9 @@ try:
         aligned_frames = align.process(frames)
 
         # Get aligned frames
-        aligned_depth_frame = aligned_frames.get_depth_frame()  # aligned_depth_frame is a 640x480 depth image
+        aligned_depth_frame = (
+            aligned_frames.get_depth_frame()
+        )  # aligned_depth_frame is a 640x480 depth image
         color_frame = aligned_frames.get_color_frame()
 
         # Validate that both frames are valid
@@ -70,27 +73,30 @@ try:
         depth_image = np.asanyarray(aligned_depth_frame.get_data())
         color_image = np.asanyarray(color_frame.get_data())
 
-        # Remove background - Set pixels further than clipping_distance to grey
-        grey_color = 153
-        depth_image_3d = np.dstack((depth_image, depth_image, depth_image))  # depth image is 1 channel, color is 3 channels
-        bg_removed = np.where((depth_image_3d > clipping_distance) | (depth_image_3d <= 0), grey_color, color_image)
+        depth_image_3d = np.dstack(
+            (depth_image, depth_image, depth_image)
+        )  # depth image is 1 channel, color is 3 channels
 
         # Render images:
         #   depth align to color on left
         #   depth on right
-        depth_colormap = cv2.applyColorMap(cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET)
-        images = np.hstack((bg_removed, depth_colormap))
+        depth_colormap = cv2.applyColorMap(
+            cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET
+        )
+        images = np.hstack((color_image, depth_colormap))
 
-        cv2.namedWindow('Align Example', cv2.WINDOW_NORMAL)
-        cv2.imshow('Align Example', images)
-        
+        cv2.namedWindow("Align Example", cv2.WINDOW_NORMAL)
+        cv2.imshow("Align Example", images)
+
         key = cv2.waitKey(1)
         # Press esc or 'q' to close the image window
-        if key & 0xFF == ord('q') or key == 27:
+        if key & 0xFF == ord("q") or key == 27:
             cv2.destroyAllWindows()
             break
         elif key == 32:  # Spacebar key code
             # Save the current RGB image
-            cv2.imwrite('rgb_image.jpg', color_image)
+            timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+            cv2.imwrite(f"rgb_image{timestamp}.jpg", color_image)
+            print("Photo taken")
 finally:
     pipeline.stop()
