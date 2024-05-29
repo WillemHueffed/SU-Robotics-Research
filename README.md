@@ -28,7 +28,7 @@ SU human dexterity soft robotics &amp; navigation with eye gaze
   - Allows for manual control of robot via the command line -> used for testing
   - To use run the `xs_sdk`, then `command_executor.py`, and then this script
 
-## eye_tracking direcotyr
+## eye_tracking directory
 - Contains a bunch of python scripts that are used to develop the realtime eye tracking algorithm
 - Also contain code examples of interfacing with the tobii hardware
 
